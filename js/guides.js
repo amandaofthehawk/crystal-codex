@@ -14,7 +14,7 @@ function renderPairingGroups() {
   const container = byId2("pairing-groups");
   if (!container) return;
   container.innerHTML = PAIRING_GROUPS.map(group => `
-    <article class="guide-card">
+    <article class="guide-card accent-${group.accent || "purple"}">
       <h3>${group.title}</h3>
       <p>${group.description}</p>
       <div class="crystal-chip-row">${group.crystals.map(crystalLinkChip).join("")}</div>

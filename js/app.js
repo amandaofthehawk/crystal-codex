@@ -1,12 +1,12 @@
 /* Crystal Codex — browse/search/filter/modal logic for index.html */
 
 const COLOR_HEX = {
-  "Purple": "#9b6fd1",
-  "Blue": "#5a8fd6",
-  "Green": "#5fae6e",
+  "Purple": "#b893e8",
+  "Blue": "#74c2e8",
+  "Green": "#74d9ab",
   "Black": "#2b2b33",
   "Orange": "#e0893f",
-  "Yellow": "#e3c23c",
+  "Yellow": "#eed48f",
   "Pink": "#e79bc0",
   "White": "#e9e6f2",
   "Clear/White": "#e9e6f2",
@@ -16,6 +16,15 @@ const COLOR_HEX = {
   "Red": "#c0493f",
   "Multicolor": null
 };
+
+/* Value (not a full "background:" declaration) used for each crystal card's
+   accent bar / hover border, set as the --card-accent custom property. */
+function accentValue(colorName) {
+  if (colorName === "Multicolor") {
+    return "conic-gradient(from 90deg, #b893e8, #74c2e8, #74d9ab, #eed48f, #b893e8)";
+  }
+  return COLOR_HEX[colorName] || "#b893e8";
+}
 
 const ZODIAC_SIGNS = ["Aries","Taurus","Gemini","Cancer","Leo","Virgo","Libra","Scorpio","Sagittarius","Capricorn","Aquarius","Pisces"];
 const CHAKRAS = ["Root","Sacral","Solar Plexus","Heart","Throat","Third Eye","Crown"];
@@ -35,7 +44,7 @@ function byId(id) { return document.getElementById(id); }
 
 function swatchStyle(colorName) {
   if (colorName === "Multicolor") {
-    return "background: conic-gradient(from 90deg, #9b6fd1, #5a8fd6, #5fae6e, #e3c23c, #e0893f, #e79bc0, #9b6fd1);";
+    return `background: ${accentValue("Multicolor")};`;
   }
   const hex = COLOR_HEX[colorName] || "#777";
   return `background:${hex};`;
@@ -110,7 +119,7 @@ function clearFilters() {
 
 function crystalCardHTML(crystal) {
   return `
-    <button class="crystal-card" data-id="${crystal.id}" aria-label="View details for ${crystal.name}">
+    <button class="crystal-card" data-id="${crystal.id}" style="--card-accent:${accentValue(crystal.colors[0])}" aria-label="View details for ${crystal.name}">
       ${renderSwatches(crystal.colors)}
       <h3>${crystal.name}</h3>
       ${crystal.aliases && crystal.aliases.length ? `<div class="aka">${crystal.aliases.join(", ")}</div>` : ""}

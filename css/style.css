@@ -1,15 +1,30 @@
 :root {
-  --bg: #15121f;
-  --bg-elevated: #1d1830;
-  --bg-card: #231c3a;
-  --border: #392f57;
+  --bg: #100d1c;
+  --bg-elevated: #1a1630;
+  --bg-card: #211c38;
+  --border: #39305a;
   --text: #ece7fa;
   --text-dim: #b2a8d1;
-  --accent: #b893e8;
-  --accent-bright: #d4b8ff;
-  --gold: #e8c879;
+
+  /* core palette: purple stays primary, blue/green/soft-yellow added as equal partners */
+  --purple: #b893e8;
+  --purple-bright: #d4b8ff;
+  --blue: #74c2e8;
+  --blue-bright: #9fdcf5;
+  --green: #74d9ab;
+  --green-bright: #9beac6;
+  --yellow: #eed48f;
+  --yellow-bright: #f6e5b8;
   --rose: #f0a6c8;
-  --focus: #8fd3c7;
+  --gold: #d4af5a;
+
+  --aura-gradient: linear-gradient(100deg, var(--purple), var(--blue), var(--green), var(--yellow));
+
+  /* aliases kept so existing rules referencing --accent/--accent-bright/--focus still resolve */
+  --accent: var(--purple);
+  --accent-bright: var(--purple-bright);
+  --focus: var(--blue-bright);
+
   --radius: 14px;
   --maxw: 1180px;
 }
@@ -27,22 +42,33 @@ html, body {
 
 body {
   background-image:
-    radial-gradient(circle at 15% 0%, rgba(184, 147, 232, 0.12), transparent 45%),
-    radial-gradient(circle at 85% 20%, rgba(232, 200, 121, 0.08), transparent 40%);
+    radial-gradient(circle at 12% 0%, rgba(184, 147, 232, 0.14), transparent 42%),
+    radial-gradient(circle at 88% 12%, rgba(116, 194, 232, 0.10), transparent 40%),
+    radial-gradient(circle at 50% 100%, rgba(116, 217, 171, 0.08), transparent 45%),
+    radial-gradient(circle at 95% 85%, rgba(238, 212, 143, 0.07), transparent 38%);
 }
 
 h1, h2, h3, h4 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 600;
   margin: 0 0 0.5em;
-  letter-spacing: 0.01em;
+  letter-spacing: -0.01em;
 }
 
-h1 { font-size: 2.4rem; }
-h2 { font-size: 1.7rem; color: var(--accent-bright); }
+h1 { font-size: 2.4rem; font-weight: 700; }
+h2 { font-size: 1.7rem; color: var(--purple-bright); }
 h3 { font-size: 1.3rem; }
 
-a { color: var(--accent-bright); text-decoration: none; }
+.aura-text,
+.page-intro h1,
+.modal h2 {
+  background: var(--aura-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+a { color: var(--purple-bright); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 p { color: var(--text-dim); margin: 0 0 1em; }
@@ -68,15 +94,22 @@ p { color: var(--text-dim); margin: 0 0 1em; }
 }
 
 .brand {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
   font-size: 1.5rem;
+  letter-spacing: -0.01em;
   color: var(--text);
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 .brand:hover { text-decoration: none; }
-.brand .gem { color: var(--gold); }
+.brand .gem {
+  background: var(--aura-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 
 nav.main-nav {
   display: flex;
@@ -189,8 +222,8 @@ footer.site-footer .disclaimer {
 }
 .chip input { display: none; }
 .chip.active {
-  background: linear-gradient(135deg, rgba(184,147,232,0.3), rgba(232,200,121,0.2));
-  border-color: var(--accent);
+  background: linear-gradient(135deg, rgba(184,147,232,0.32), rgba(116,194,232,0.22), rgba(116,217,171,0.18));
+  border-color: var(--purple);
   color: var(--text);
 }
 .clear-filters {
@@ -218,18 +251,27 @@ footer.site-footer .disclaimer {
 }
 
 .crystal-card {
+  position: relative;
+  overflow: hidden;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.1rem;
+  padding: 1.3rem 1.1rem 1.1rem;
   cursor: pointer;
   text-align: left;
   color: var(--text);
   transition: transform 0.12s ease, border-color 0.12s ease;
 }
+.crystal-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: var(--card-accent, var(--purple));
+}
 .crystal-card:hover,
 .crystal-card:focus-visible {
-  border-color: var(--accent);
+  border-color: var(--card-accent, var(--purple));
   transform: translateY(-2px);
   outline: none;
 }
@@ -332,13 +374,14 @@ ul.plain-list li { margin-bottom: 0.3rem; }
   font-size: 0.82rem;
   cursor: pointer;
 }
-.pairs-row button:hover { border-color: var(--accent); }
+.pairs-row button:hover { border-color: var(--purple); }
 .affirmation {
   font-family: "Cormorant Garamond", Georgia, serif;
   font-style: italic;
+  font-weight: 600;
   font-size: 1.15rem;
-  color: var(--accent-bright);
-  border-left: 3px solid var(--accent);
+  color: var(--purple-bright);
+  border-left: 3px solid var(--purple);
   padding-left: 1rem;
   margin: 1.2rem 0;
 }
@@ -349,9 +392,19 @@ ul.plain-list li { margin-bottom: 0.3rem; }
 .guide-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
+  border-left: 4px solid var(--purple);
   border-radius: var(--radius);
   padding: 1.4rem 1.6rem;
 }
+.guide-card h3 { color: var(--purple-bright); }
+.guide-card.accent-blue { border-left-color: var(--blue); }
+.guide-card.accent-blue h3 { color: var(--blue-bright); }
+.guide-card.accent-green { border-left-color: var(--green); }
+.guide-card.accent-green h3 { color: var(--green-bright); }
+.guide-card.accent-yellow { border-left-color: var(--yellow); }
+.guide-card.accent-yellow h3 { color: var(--yellow-bright); }
+.guide-card.accent-rose { border-left-color: var(--rose); }
+.guide-card.accent-rose h3 { color: var(--rose); }
 .guide-card .crystal-chip-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.8rem 0; }
 .guide-card .crystal-chip-row a.tag { color: var(--text); }
 
@@ -364,10 +417,17 @@ ul.plain-list li { margin-bottom: 0.3rem; }
 .method-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
+  border-top: 3px solid var(--purple);
   border-radius: var(--radius);
   padding: 1.3rem;
 }
-.method-card h3 { color: var(--gold); }
+.method-card h3 { color: var(--purple-bright); }
+.method-card.accent-blue { border-top-color: var(--blue); }
+.method-card.accent-blue h3 { color: var(--blue-bright); }
+.method-card.accent-green { border-top-color: var(--green); }
+.method-card.accent-green h3 { color: var(--green-bright); }
+.method-card.accent-yellow { border-top-color: var(--yellow); }
+.method-card.accent-yellow h3 { color: var(--yellow-bright); }
 .caution {
   margin-top: 0.7rem;
   font-size: 0.85rem;
@@ -390,15 +450,16 @@ table.safety-table th, table.safety-table td {
   border-bottom: 1px solid var(--border);
 }
 table.safety-table th { color: var(--text-dim); font-weight: 500; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.04em; }
-.status-ok { color: var(--focus); }
-.status-caution { color: var(--gold); }
+.status-ok { color: var(--green-bright); }
+.status-caution { color: var(--yellow); }
 .status-no { color: var(--rose); }
 
 .glossary-search { margin-bottom: 1.5rem; }
 dl.glossary-list dt {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
   font-size: 1.15rem;
-  color: var(--accent-bright);
+  color: var(--purple-bright);
   margin-top: 1.3rem;
 }
 dl.glossary-list dd { margin: 0.2rem 0 0; color: var(--text-dim); }
