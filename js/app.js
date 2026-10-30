@@ -117,9 +117,15 @@ function clearFilters() {
   renderGrid();
 }
 
+function crystalPhotoHTML(crystal, sizes) {
+  if (!crystal.photo) return "";
+  return `<div class="card-photo"><img src="${crystal.photo.file}" alt="${crystal.name} crystal specimen" loading="lazy" ${sizes ? `sizes="${sizes}"` : ""}></div>`;
+}
+
 function crystalCardHTML(crystal) {
   return `
     <button class="crystal-card" data-id="${crystal.id}" style="--card-accent:${accentValue(crystal.colors[0])}" aria-label="View details for ${crystal.name}">
+      ${crystalPhotoHTML(crystal, "230px")}
       ${renderSwatches(crystal.colors)}
       <h3>${crystal.name}</h3>
       ${crystal.aliases && crystal.aliases.length ? `<div class="aka">${crystal.aliases.join(", ")}</div>` : ""}
@@ -150,6 +156,8 @@ function modalContentHTML(crystal) {
   const pairs = (crystal.pairsWith || []).map(findCrystal).filter(Boolean);
   return `
     <button class="modal-close" aria-label="Close">&times;</button>
+    ${crystalPhotoHTML(crystal, "680px")}
+    ${crystal.photo && crystal.photo.credit ? `<p class="photo-credit">Photo: <a href="${crystal.photo.creditUrl}" target="_blank" rel="noopener">${crystal.photo.credit}</a></p>` : ""}
     ${renderSwatches(crystal.colors)}
     <div class="modal-title-row">
       <span class="card-icon"><svg class="icon"><use href="#icon-crystal-point"></use></svg></span>
