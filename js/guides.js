@@ -73,6 +73,24 @@ function renderAZNav() {
   }).join("");
 }
 
+function renderPhotoCredits() {
+  const tbody = byId2("credits-table-body");
+  if (!tbody) return;
+  if (typeof PHOTO_CREDITS === "undefined" || PHOTO_CREDITS.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="4">No photo credits yet.</td></tr>`;
+    return;
+  }
+  const rows = PHOTO_CREDITS.slice().sort((a, b) => a.crystalName.localeCompare(b.crystalName));
+  tbody.innerHTML = rows.map(c => `
+    <tr>
+      <td><a href="index.html#${c.crystalId}">${c.crystalName}</a></td>
+      <td>${c.artist || "Unknown"}</td>
+      <td>${c.licenseUrl ? `<a href="${c.licenseUrl}" target="_blank" rel="noopener">${c.license}</a>` : c.license}</td>
+      <td><a href="${c.sourceUrl}" target="_blank" rel="noopener">Wikimedia Commons</a></td>
+    </tr>
+  `).join("");
+}
+
 function byId2(id) { return document.getElementById(id); }
 
 function highlightActiveNav2() {
