@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crystal Codex — Browse Crystals</title>
+<meta name="description" content="Search and filter a growing index of crystals by name, color, zodiac sign, chakra, element, and birth month.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%E2%97%86%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html"><span class="gem">◆</span> Crystal Codex</a>
+    <nav class="main-nav">
+      <a href="index.html">Browse</a>
+      <a href="pairing-guide.html">Pairing Guide</a>
+      <a href="cleansing-guide.html">Cleansing &amp; Charging</a>
+      <a href="glossary.html">Glossary</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-intro">
+    <h1>Browse the Codex</h1>
+    <p>Search by name, or filter by color, zodiac sign, chakra, element, and birth month to find the crystal that fits what you're looking for.</p>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" id="search-input" placeholder="Search by crystal name..." aria-label="Search crystals by name">
+  </div>
+
+  <div class="browse-layout">
+    <aside class="filters">
+      <h3>Filters <button class="clear-filters" id="clear-filters-btn">Clear all</button></h3>
+      <fieldset class="filter-group" id="filter-colors"></fieldset>
+      <fieldset class="filter-group" id="filter-zodiac"></fieldset>
+      <fieldset class="filter-group" id="filter-chakra"></fieldset>
+      <fieldset class="filter-group" id="filter-element"></fieldset>
+      <fieldset class="filter-group" id="filter-month"></fieldset>
+    </aside>
+
+    <section>
+      <div class="results-meta">
+        <span id="results-count"></span>
+      </div>
+      <div class="crystal-grid" id="crystal-grid"></div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p class="disclaimer">Crystal Codex catalogs traditional metaphysical and folkloric associations alongside mineralogical facts. Metaphysical properties are not scientifically proven and are presented for reference and personal practice, not as medical or professional advice.</p>
+  <p>Crystal Codex — a growing index of crystals.</p>
+</footer>
+
+<div class="modal-backdrop" id="modal-backdrop">
+  <div class="modal" id="modal-content" role="dialog" aria-modal="true"></div>
+</div>
+
+<script src="data/crystals.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
