@@ -151,7 +151,10 @@ function modalContentHTML(crystal) {
   return `
     <button class="modal-close" aria-label="Close">&times;</button>
     ${renderSwatches(crystal.colors)}
-    <h2>${crystal.name}</h2>
+    <div class="modal-title-row">
+      <span class="card-icon"><svg class="icon"><use href="#icon-crystal-point"></use></svg></span>
+      <h2>${crystal.name}</h2>
+    </div>
     ${crystal.aliases && crystal.aliases.length ? `<div class="aka">Also known as: ${crystal.aliases.join(", ")}</div>` : ""}
     <p>${crystal.meaning}</p>
     <div class="affirmation">&ldquo;${crystal.affirmation}&rdquo;</div>

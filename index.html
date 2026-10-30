@@ -12,6 +12,58 @@
 </head>
 <body>
 
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="icon-crystal-point" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 2h8l4 7-8 13L4 9Z"/>
+    <path d="M8 2l4 7-4 0M16 2l-4 7M4 9h16"/>
+  </symbol>
+  <symbol id="icon-crystal-cluster" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 20 5 10 8 20Z"/><path d="M7 20 12 4 17 20Z"/><path d="M16 20 19 11 22 20Z"/><path d="M2 20h20"/>
+  </symbol>
+  <symbol id="icon-moon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 13.5A8.5 8.5 0 1 1 10.5 4 7 7 0 0 0 20 13.5Z"/>
+  </symbol>
+  <symbol id="icon-sun" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/>
+  </symbol>
+  <symbol id="icon-water-drop" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 2s7 9 7 14a7 7 0 0 1-14 0c0-5 7-14 7-14Z"/>
+  </symbol>
+  <symbol id="icon-smoke" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 22c0-3 3-3 3-6s-3-3-3-6 3-3 3-6"/><path d="M15 22c0-3 3-3 3-6s-3-3-3-6 3-3 3-6"/>
+  </symbol>
+  <symbol id="icon-bell" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 3a5 5 0 0 0-5 5v3.3c0 1-.4 1.9-1.1 2.6L4 16h16l-1.9-2.1c-.7-.7-1.1-1.6-1.1-2.6V8a5 5 0 0 0-5-5Z"/><path d="M10 19a2 2 0 0 0 4 0"/>
+  </symbol>
+  <symbol id="icon-leaf" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 21c0-9.5 4-15.5 15-17-1 10.5-7.5 15-15 17Z"/><path d="M19 4 9 15"/>
+  </symbol>
+  <symbol id="icon-sparkle" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 2l1.8 7.2L21 11l-7.2 1.8L12 20l-1.8-7.2L3 11l7.2-1.8Z"/>
+  </symbol>
+  <symbol id="icon-star" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 2.5 14.9 9 22 9.8 16.7 14.4 18.2 21.5 12 17.8 5.8 21.5 7.3 14.4 2 9.8 9.1 9Z"/>
+  </symbol>
+  <symbol id="icon-shield" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 2.5 20 6v6c0 5.2-3.5 8.8-8 9.5-4.5-.7-8-4.3-8-9.5V6Z"/>
+  </symbol>
+  <symbol id="icon-heart" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 21S4.5 16 2.7 11.4A5.4 5.4 0 0 1 12 6.3a5.4 5.4 0 0 1 9.3 5.1C19.5 16 12 21 12 21Z"/>
+  </symbol>
+  <symbol id="icon-speech" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 5.5A2 2 0 0 1 6 3.5h12a2 2 0 0 1 2 2V13a2 2 0 0 1-2 2H9l-5 4V5.5Z"/>
+  </symbol>
+  <symbol id="icon-eye" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/>
+  </symbol>
+  <symbol id="icon-spiral" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 12a2.2 2.2 0 1 0 2.2-2.2M12 12a4.6 4.6 0 1 1 4.6-4.6M12 12a7 7 0 1 0-7-7"/>
+  </symbol>
+  <symbol id="icon-constellation" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 18 9 7l6 3 6-6"/><circle cx="3" cy="18" r="1" fill="currentColor" stroke="none"/><circle cx="9" cy="7" r="1" fill="currentColor" stroke="none"/><circle cx="15" cy="10" r="1" fill="currentColor" stroke="none"/><circle cx="21" cy="4" r="1" fill="currentColor" stroke="none"/>
+  </symbol>
+</svg>
+
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="index.html"><span class="gem">◆</span> Crystal Codex</a>
@@ -28,6 +80,13 @@
   <div class="page-intro">
     <h1>Browse the Codex</h1>
     <p>Search by name, or filter by color, zodiac sign, chakra, element, and birth month to find the crystal that fits what you're looking for.</p>
+    <div class="hero-decor" aria-hidden="true">
+      <svg class="decor-1"><use href="#icon-crystal-point"></use></svg>
+      <svg class="decor-2"><use href="#icon-sparkle"></use></svg>
+      <svg class="decor-3"><use href="#icon-star"></use></svg>
+      <svg class="decor-4"><use href="#icon-constellation"></use></svg>
+      <svg class="decor-5"><use href="#icon-moon"></use></svg>
+    </div>
   </div>
 
   <div class="search-bar">

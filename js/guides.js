@@ -15,7 +15,10 @@ function renderPairingGroups() {
   if (!container) return;
   container.innerHTML = PAIRING_GROUPS.map(group => `
     <article class="guide-card accent-${group.accent || "purple"}">
-      <h3>${group.title}</h3>
+      <div class="card-title">
+        <span class="card-icon"><svg class="icon"><use href="#${group.icon || "icon-crystal-point"}"></use></svg></span>
+        <h3>${group.title}</h3>
+      </div>
       <p>${group.description}</p>
       <div class="crystal-chip-row">${group.crystals.map(crystalLinkChip).join("")}</div>
       <p><strong>Why it works:</strong> ${group.why}</p>
