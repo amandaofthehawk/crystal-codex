@@ -146,32 +146,14 @@ main {
   padding: 2rem 1.5rem 4rem;
 }
 
-.page-intro { position: relative; max-width: 720px; margin-bottom: 2rem; }
-.page-intro h1, .page-intro p { position: relative; z-index: 1; }
+.page-intro { max-width: 720px; margin-bottom: 2rem; }
 
-/* ---------- Fine-line decorative illustrations ---------- */
+/* ---------- Fine-line icons (used on guide/method cards and the modal) ---------- */
 
 .icon {
   width: 100%;
   height: 100%;
   display: block;
-}
-
-.hero-decor {
-  position: absolute;
-  inset: 0;
-  overflow: visible;
-  pointer-events: none;
-  z-index: 0;
-}
-.hero-decor svg { position: absolute; }
-.hero-decor .decor-1 { top: -34px; right: -70px; width: 110px; height: 110px; color: var(--purple); opacity: 0.12; }
-.hero-decor .decor-2 { top: -4px; right: -230px; width: 24px; height: 24px; color: var(--yellow); opacity: 0.55; }
-.hero-decor .decor-3 { top: 64px; right: -38px; width: 18px; height: 18px; color: var(--blue); opacity: 0.45; }
-.hero-decor .decor-4 { top: 36px; right: -310px; width: 84px; height: 84px; color: var(--green); opacity: 0.16; }
-.hero-decor .decor-5 { top: 108px; right: -168px; width: 28px; height: 28px; color: var(--purple-bright); opacity: 0.4; }
-@media (max-width: 920px) {
-  .hero-decor { display: none; }
 }
 
 .card-title { display: flex; align-items: center; gap: 0.65rem; margin-bottom: 0.5rem; }
