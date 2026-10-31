@@ -667,6 +667,7 @@ const CRYSTALS = [
   {
     id: "tanzanite",
     name: "Tanzanite",
+    photo: { file: "assets/photos/tanzanite.webp" },
     aliases: [],
     colors: ["Blue", "Purple"],
     mineralClass: "Zoisite (silicate)",
@@ -688,6 +689,7 @@ const CRYSTALS = [
   {
     id: "tigers-eye",
     name: "Tiger's Eye",
+    photo: { file: "assets/photos/tigers-eye.webp" },
     aliases: [],
     colors: ["Brown", "Gold"],
     mineralClass: "Quartz (chatoyant, after fibrous crocidolite)",
@@ -709,6 +711,7 @@ const CRYSTALS = [
   {
     id: "topaz",
     name: "Topaz",
+    photo: { file: "assets/photos/topaz.webp" },
     aliases: ["Imperial Topaz", "Blue Topaz"],
     colors: ["Yellow", "Blue"],
     mineralClass: "Silicate (aluminum fluorosilicate)",
@@ -730,6 +733,7 @@ const CRYSTALS = [
   {
     id: "turquoise",
     name: "Turquoise",
+    photo: { file: "assets/photos/turquoise.webp" },
     aliases: [],
     colors: ["Blue", "Green"],
     mineralClass: "Copper aluminum phosphate",
