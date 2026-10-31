@@ -337,6 +337,7 @@ const CRYSTALS = [
   {
     id: "kunzite",
     name: "Kunzite",
+    photo: { file: "assets/photos/kunzite.webp" },
     aliases: [],
     colors: ["Pink", "Purple"],
     mineralClass: "Spodumene (lithium aluminum silicate)",
@@ -358,6 +359,7 @@ const CRYSTALS = [
   {
     id: "labradorite",
     name: "Labradorite",
+    photo: { file: "assets/photos/labradorite.webp" },
     aliases: ["Spectrolite"],
     colors: ["Gray", "Multicolor"],
     mineralClass: "Feldspar (plagioclase)",
@@ -379,6 +381,7 @@ const CRYSTALS = [
   {
     id: "lapis-lazuli",
     name: "Lapis Lazuli",
+    photo: { file: "assets/photos/lapis-lazuli.webp" },
     aliases: [],
     colors: ["Blue"],
     mineralClass: "Metamorphic rock (lazurite, calcite, pyrite)",
@@ -400,6 +403,7 @@ const CRYSTALS = [
   {
     id: "lavender-quartz",
     name: "Lavender Quartz",
+    photo: { file: "assets/photos/lavender-quartz.webp" },
     aliases: ["Lilac Quartz"],
     colors: ["Purple"],
     mineralClass: "Quartz (silicate)",
@@ -421,6 +425,7 @@ const CRYSTALS = [
   {
     id: "lepidolite",
     name: "Lepidolite",
+    photo: { file: "assets/photos/lepidolite.webp" },
     aliases: [],
     colors: ["Purple", "Pink"],
     mineralClass: "Lithium mica",
