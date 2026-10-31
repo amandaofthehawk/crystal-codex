@@ -520,6 +520,74 @@ dl.glossary-list dd { margin: 0.2rem 0 0; color: var(--text-dim); }
 }
 .az-nav a:hover { color: var(--text); border-color: var(--accent); text-decoration: none; }
 
+/* ---------- Moon phases page ---------- */
+
+.moon-today-wrap { margin-bottom: 2.5rem; }
+.moon-today-wrap h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  margin-bottom: 0.8rem;
+}
+
+.moon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.2rem;
+}
+
+.moon-card {
+  position: relative;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--purple);
+  border-radius: var(--radius);
+  padding: 1.3rem;
+}
+.moon-card h3, .moon-card .card-icon { color: var(--purple-bright); }
+.moon-card.accent-blue { border-top-color: var(--blue); }
+.moon-card.accent-blue h3, .moon-card.accent-blue .card-icon { color: var(--blue-bright); }
+.moon-card.accent-green { border-top-color: var(--green); }
+.moon-card.accent-green h3, .moon-card.accent-green .card-icon { color: var(--green-bright); }
+.moon-card.accent-yellow { border-top-color: var(--yellow); }
+.moon-card.accent-yellow h3, .moon-card.accent-yellow .card-icon { color: var(--yellow-bright); }
+.moon-card.accent-rose { border-top-color: var(--rose); }
+.moon-card.accent-rose h3, .moon-card.accent-rose .card-icon { color: var(--rose); }
+
+.moon-card .card-icon { width: 30px; height: 30px; }
+.moon-card .moon-energy { color: var(--text); font-style: italic; margin-bottom: 0.8rem; }
+.moon-card .crystal-chip-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.8rem 0; }
+.moon-card .crystal-chip-row a.tag { color: var(--text); }
+
+.moon-card-today {
+  border-top-width: 4px;
+  box-shadow: 0 0 0 1px var(--purple-bright), 0 8px 30px -10px rgba(184, 147, 232, 0.5);
+}
+.moon-card-today.accent-blue { box-shadow: 0 0 0 1px var(--blue-bright), 0 8px 30px -10px rgba(116, 194, 232, 0.5); }
+.moon-card-today.accent-green { box-shadow: 0 0 0 1px var(--green-bright), 0 8px 30px -10px rgba(116, 217, 171, 0.5); }
+.moon-card-today.accent-yellow { box-shadow: 0 0 0 1px var(--yellow-bright), 0 8px 30px -10px rgba(238, 212, 143, 0.5); }
+.moon-card-today.accent-rose { box-shadow: 0 0 0 1px var(--rose), 0 8px 30px -10px rgba(240, 166, 198, 0.5); }
+
+.moon-today-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  background: var(--aura-gradient);
+  color: #15101f;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.moon-illumination {
+  margin-top: 0.8rem;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
 @media (max-width: 600px) {
   .modal-grid { grid-template-columns: 1fr; }
   h1 { font-size: 1.9rem; }

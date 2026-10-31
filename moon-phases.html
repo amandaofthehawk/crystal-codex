@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moon Phase Calendar — Crystal Codex</title>
+<meta name="description" content="The 8 lunar phases, their traditional energetic meaning, and suggested crystal rituals for each — including tonight's current moon phase.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%E2%97%86%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="icon-moon-new" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none">
+    <circle cx="12" cy="12" r="9"/>
+  </symbol>
+  <symbol id="icon-moon-waxing-crescent" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M20 13.5A8.5 8.5 0 1 1 10.5 4 7 7 0 0 0 20 13.5Z"/>
+  </symbol>
+  <symbol id="icon-moon-first-quarter" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none">
+    <circle cx="12" cy="12" r="9"/><path d="M12 3A9 9 0 0 1 12 21Z" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="icon-moon-waxing-gibbous" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none">
+    <circle cx="12" cy="12" r="9"/><path d="M12 3.3A8.7 8.7 0 0 1 12 20.7 6.5 8.7 0 0 1 12 3.3Z" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="icon-moon-full" viewBox="0 0 24 24" fill="currentColor">
+    <circle cx="12" cy="12" r="9"/>
+  </symbol>
+  <symbol id="icon-moon-waning-gibbous" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none">
+    <circle cx="12" cy="12" r="9"/><path d="M12 3.3A8.7 8.7 0 0 0 12 20.7 6.5 8.7 0 0 0 12 3.3Z" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="icon-moon-last-quarter" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none">
+    <circle cx="12" cy="12" r="9"/><path d="M12 3A9 9 0 0 0 12 21Z" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="icon-moon-waning-crescent" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M4 13.5A8.5 8.5 0 1 0 13.5 4 7 7 0 0 1 4 13.5Z"/>
+  </symbol>
+</svg>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html"><span class="gem">◆</span> Crystal Codex</a>
+    <nav class="main-nav">
+      <a href="index.html">Browse</a>
+      <a href="pairing-guide.html">Pairing Guide</a>
+      <a href="cleansing-guide.html">Cleansing &amp; Charging</a>
+      <a href="moon-phases.html">Moon Phases</a>
+      <a href="glossary.html">Glossary</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-intro">
+    <h1>Moon Phase Calendar</h1>
+    <p>The moon's 8 phases each carry their own traditional energy — and their own well-suited crystals and rituals. Tonight's phase is calculated below, or browse the full cycle for reference anytime.</p>
+  </div>
+
+  <div class="moon-today-wrap">
+    <h2>Tonight</h2>
+    <div class="moon-grid" id="moon-today" style="grid-template-columns: minmax(260px, 420px);"></div>
+  </div>
+
+  <div class="moon-today-wrap">
+    <h2>The Full Cycle</h2>
+    <div class="moon-grid" id="moon-grid"></div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p class="disclaimer">Crystal Codex catalogs traditional metaphysical and folkloric associations alongside mineralogical facts. Metaphysical properties are not scientifically proven and are presented for reference and personal practice, not as medical or professional advice. Moon phase is calculated locally from your device's clock and may be off by up to a day depending on your time zone.</p>
+  <p>Crystal Codex — a growing index of crystals. <a href="credits.html">Photo Credits</a></p>
+</footer>
+
+<script src="data/crystals.js"></script>
+<script src="data/pairings.js"></script>
+<script src="data/glossary.js"></script>
+<script src="data/care-safety.js"></script>
+<script src="data/moon-phases.js"></script>
+<script src="js/guides.js"></script>
+<script src="js/moon.js"></script>
+</body>
+</html>
