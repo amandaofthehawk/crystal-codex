@@ -227,6 +227,7 @@ const CRYSTALS = [
   {
     id: "citrine",
     name: "Citrine",
+    photo: { file: "assets/photos/citrine.webp" },
     aliases: [],
     colors: ["Yellow"],
     mineralClass: "Quartz (silicate)",
@@ -248,6 +249,7 @@ const CRYSTALS = [
   {
     id: "clear-quartz",
     name: "Clear Quartz",
+    photo: { file: "assets/photos/clear-quartz.webp" },
     aliases: ["Rock Crystal"],
     colors: ["Clear/White"],
     mineralClass: "Quartz (silicate)",
@@ -269,6 +271,7 @@ const CRYSTALS = [
   {
     id: "fluorite",
     name: "Fluorite",
+    photo: { file: "assets/photos/fluorite.webp" },
     aliases: ["Rainbow Fluorite"],
     colors: ["Purple", "Green", "Multicolor"],
     mineralClass: "Calcium fluoride (halide)",
@@ -290,6 +293,7 @@ const CRYSTALS = [
   {
     id: "hematite",
     name: "Hematite",
+    photo: { file: "assets/photos/hematite.webp" },
     aliases: [],
     colors: ["Black", "Gray"],
     mineralClass: "Iron oxide",
@@ -311,6 +315,7 @@ const CRYSTALS = [
   {
     id: "howlite",
     name: "Howlite",
+    photo: { file: "assets/photos/howlite.webp" },
     aliases: [],
     colors: ["White"],
     mineralClass: "Borate mineral",
