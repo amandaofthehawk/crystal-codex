@@ -1,0 +1,16 @@
+{
+  "name": "crystal-codex",
+  "version": "1.0.0",
+  "description": "A growing index of crystals with metaphysical properties and care guides",
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'Static site - open index.html in browser'",
+    "build": "echo 'No build step required for static site'"
+  },
+  "keywords": ["crystals", "metaphysical", "static-site"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  }
+}
