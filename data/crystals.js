@@ -447,6 +447,7 @@ const CRYSTALS = [
   {
     id: "malachite",
     name: "Malachite",
+    photo: { file: "assets/photos/malachite.webp" },
     aliases: [],
     colors: ["Green"],
     mineralClass: "Copper carbonate hydroxide",
@@ -468,6 +469,7 @@ const CRYSTALS = [
   {
     id: "moldavite",
     name: "Moldavite",
+    photo: { file: "assets/photos/moldavite.webp" },
     aliases: [],
     colors: ["Green"],
     mineralClass: "Tektite (natural glass, meteorite-impact origin)",
@@ -489,6 +491,7 @@ const CRYSTALS = [
   {
     id: "moonstone",
     name: "Moonstone",
+    photo: { file: "assets/photos/moonstone.webp" },
     aliases: [],
     colors: ["White", "Clear/White"],
     mineralClass: "Feldspar (orthoclase/plagioclase)",
@@ -510,6 +513,7 @@ const CRYSTALS = [
   {
     id: "onyx",
     name: "Onyx",
+    photo: { file: "assets/photos/onyx.webp" },
     aliases: ["Black Onyx"],
     colors: ["Black"],
     mineralClass: "Chalcedony (banded quartz)",
@@ -531,6 +535,7 @@ const CRYSTALS = [
   {
     id: "peridot",
     name: "Peridot",
+    photo: { file: "assets/photos/peridot.webp" },
     aliases: ["Chrysolite"],
     colors: ["Green"],
     mineralClass: "Olivine (silicate)",
