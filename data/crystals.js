@@ -117,6 +117,7 @@ const CRYSTALS = [
   {
     id: "blue-lace-agate",
     name: "Blue Lace Agate",
+    photo: { file: "assets/photos/blue-lace-agate.webp" },
     aliases: [],
     colors: ["Blue"],
     mineralClass: "Chalcedony (banded quartz)",
@@ -138,6 +139,7 @@ const CRYSTALS = [
   {
     id: "calcite",
     name: "Calcite",
+    photo: { file: "assets/photos/calcite.webp" },
     aliases: ["Optical Calcite (clear variety)"],
     colors: ["Clear/White", "Orange", "Green"],
     mineralClass: "Calcium carbonate",
@@ -159,6 +161,7 @@ const CRYSTALS = [
   {
     id: "carnelian",
     name: "Carnelian",
+    photo: { file: "assets/photos/carnelian.webp" },
     aliases: [],
     colors: ["Orange"],
     mineralClass: "Chalcedony (banded quartz)",
@@ -180,6 +183,7 @@ const CRYSTALS = [
   {
     id: "celestite",
     name: "Celestite",
+    photo: { file: "assets/photos/celestite.webp" },
     aliases: ["Celestine"],
     colors: ["Blue"],
     mineralClass: "Strontium sulfate",
@@ -201,6 +205,7 @@ const CRYSTALS = [
   {
     id: "charoite",
     name: "Charoite",
+    photo: { file: "assets/photos/charoite.webp" },
     aliases: [],
     colors: ["Purple"],
     mineralClass: "Complex silicate",
