@@ -7,6 +7,7 @@ const CRYSTALS = [
   {
     id: "amethyst",
     name: "Amethyst",
+    photo: { file: "assets/photos/amethyst.webp" },
     aliases: ["Purple Quartz"],
     colors: ["Purple"],
     mineralClass: "Quartz (silicate)",
@@ -28,6 +29,7 @@ const CRYSTALS = [
   {
     id: "angelite",
     name: "Angelite",
+    photo: { file: "assets/photos/angelite.webp" },
     aliases: ["Blue Anhydrite"],
     colors: ["Blue"],
     mineralClass: "Anhydrite (sulfate)",
@@ -49,6 +51,7 @@ const CRYSTALS = [
   {
     id: "aventurine",
     name: "Aventurine",
+    photo: { file: "assets/photos/aventurine.webp" },
     aliases: ["Green Aventurine"],
     colors: ["Green"],
     mineralClass: "Quartz (silicate) with fuchsite/hematite inclusions",
@@ -70,6 +73,7 @@ const CRYSTALS = [
   {
     id: "azurite",
     name: "Azurite",
+    photo: { file: "assets/photos/azurite.webp" },
     aliases: [],
     colors: ["Blue"],
     mineralClass: "Copper carbonate",
@@ -91,6 +95,7 @@ const CRYSTALS = [
   {
     id: "black-tourmaline",
     name: "Black Tourmaline",
+    photo: { file: "assets/photos/black-tourmaline.webp" },
     aliases: ["Schorl"],
     colors: ["Black"],
     mineralClass: "Tourmaline (borosilicate)",
