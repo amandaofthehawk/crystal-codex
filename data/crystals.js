@@ -557,6 +557,7 @@ const CRYSTALS = [
   {
     id: "prehnite",
     name: "Prehnite",
+    photo: { file: "assets/photos/prehnite.webp" },
     aliases: [],
     colors: ["Green"],
     mineralClass: "Calcium aluminum silicate",
@@ -578,6 +579,7 @@ const CRYSTALS = [
   {
     id: "rhodochrosite",
     name: "Rhodochrosite",
+    photo: { file: "assets/photos/rhodochrosite.webp" },
     aliases: [],
     colors: ["Pink"],
     mineralClass: "Manganese carbonate",
@@ -599,6 +601,7 @@ const CRYSTALS = [
   {
     id: "rose-quartz",
     name: "Rose Quartz",
+    photo: { file: "assets/photos/rose-quartz.webp" },
     aliases: [],
     colors: ["Pink"],
     mineralClass: "Quartz (silicate)",
@@ -620,6 +623,7 @@ const CRYSTALS = [
   {
     id: "selenite",
     name: "Selenite",
+    photo: { file: "assets/photos/selenite.webp" },
     aliases: [],
     colors: ["Clear/White"],
     mineralClass: "Gypsum (sulfate)",
@@ -641,6 +645,7 @@ const CRYSTALS = [
   {
     id: "stilbite",
     name: "Stilbite",
+    photo: { file: "assets/photos/stilbite.webp" },
     aliases: [],
     colors: ["White", "Pink"],
     mineralClass: "Zeolite mineral",
