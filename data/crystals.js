@@ -748,7 +748,23 @@ const CRYSTALS = [
     affirmation: "I release stress and move through change with calm and balance.",
     uses: ["Keep on a nightstand during anxious or restless periods", "Carry during major transitions like moving, career change, or loss"],
     careNotes: "Very soft and flaky — avoid water, which can cause it to flake or disintegrate. Handle gently.",
-    pairsWith: ["lavender-quartz", "howlite", "blue-lace-agate"]
+    pairsWith: ["lavender-quartz", "howlite", "blue-lace-agate"],
+    deepDive: {
+      history: "Lepidolite takes its name from the Greek lepidos, \"scale,\" for its flaky, mica-like structure, first described mineralogically in the 18th century. For most of its industrial history it was valued less for its appearance than for its chemistry — lepidolite is a significant natural source of lithium, and was mined for exactly that purpose long before the crystal-healing world adopted it, a fact that quietly shaped the stone's later metaphysical reputation.",
+      narrative: "That lithium content is impossible to separate from lepidolite's modern reputation as one of the calmest, most emotionally stabilizing stones available — the same element that gives it a geological identity is pharmaceutically associated with mood regulation, and crystal practitioners have long drawn a direct, if informal, line between the two. Whether or not that connection holds any literal weight, lepidolite's reputation for soothing anxiety, overwhelm, and turbulent transitions has stayed remarkably consistent across the crystal-healing community.",
+      propertyGroups: {
+        "Emotional": ["Eases anxiety and overwhelm", "Stabilizes mood during turbulent periods"],
+        "Mental": ["Quiets obsessive or spiraling thoughts"],
+        "Spiritual": ["Supports steadiness through major transitions"]
+      },
+      extendedUses: [
+        "Keep on a nightstand during anxious or restless periods",
+        "Carry during major transitions like moving, career change, or loss",
+        "Hold during meditation focused specifically on calming an overactive mind",
+        "Place in a shared space during a generally stressful season",
+        "Pair with howlite for a doubly calming, anger-and-anxiety-soothing combination"
+      ]
+    }
   },
   {
     id: "malachite",
@@ -770,7 +786,23 @@ const CRYSTALS = [
     affirmation: "I release old wounds and transform with an open heart.",
     uses: ["Hold during deep emotional release or therapy-adjacent inner work", "Place on the heart during meditation focused on forgiveness"],
     careNotes: "Contains copper and can be toxic as dust or in water — never make elixirs, never cleanse with water, wash hands after extended handling, and keep raw/polished pieces away from children and pets.",
-    pairsWith: ["azurite", "rhodochrosite", "black-tourmaline"]
+    pairsWith: ["azurite", "rhodochrosite", "black-tourmaline"],
+    deepDive: {
+      history: "Malachite has been mined and used since roughly 4000 BCE, among the earliest ores worked for copper and ground by ancient Egyptians into kohl eyeliner — the malachite-green eye paint seen throughout Egyptian art wasn't just decorative but believed to invoke the protection of Hathor and Horus. Centuries later, Russia's Ural Mountains produced malachite in such abundance that Tsarist Russia built entire architectural features from it, most famously the Malachite Room of the Winter Palace, with its columns and vases cut from the stone.",
+      narrative: "Malachite's swirling, banded green pattern is almost always described in terms of eyes — concentric rings that genuinely resemble pupils, which fed directly into its old reputation as a protective, almost watchful stone, said to absorb negativity so thoroughly it would visibly darken or crack under psychic strain. That protective reputation carries a real intensity in modern practice too: malachite is consistently described as a stone that draws out old emotional wounds actively rather than gently, which is why it's often recommended in smaller doses than many other heart-centered stones.",
+      propertyGroups: {
+        "Emotional": ["Draws out and releases old emotional wounds", "Supports deep forgiveness work"],
+        "Spiritual": ["Transforms stuck or stagnant patterns", "Traditionally seen as watchful and protective"],
+        "Protective": ["Said to absorb negativity directed at the wearer"]
+      },
+      extendedUses: [
+        "Hold during deep emotional release or therapy-adjacent inner work",
+        "Place on the heart during meditation focused on forgiveness",
+        "Use in shorter sessions rather than constant wear, given its intensity",
+        "Keep polished pieces on display rather than handled often, to limit copper exposure",
+        "Pair with rhodochrosite when the emotional work is specifically about self-love"
+      ]
+    }
   },
   {
     id: "moldavite",
@@ -831,7 +863,23 @@ const CRYSTALS = [
     affirmation: "I flow with my natural cycles and trust new beginnings.",
     uses: ["Carry during a new moon to set intentions for a fresh start", "Wear during times of hormonal or emotional fluctuation for balance"],
     careNotes: "Moderately durable but can have internal fractures — avoid sudden temperature changes and hard impacts. Safe for brief water contact.",
-    pairsWith: ["labradorite", "selenite", "rose-quartz"]
+    pairsWith: ["labradorite", "selenite", "rose-quartz"],
+    deepDive: {
+      history: "Roman legend held that moonstone was literally formed from solidified moonlight, and both Romans and Greeks associated it with their lunar deities. In India, moonstone has long been considered sacred — traditionally regarded as a \"dream stone\" believed to bring beautiful visions in sleep, and still commonly given as a wedding gift to bless a marriage with harmony. Its modern popularity owes a great deal to the Art Nouveau period, when jewelers like René Lalique built entire pieces around its soft, glowing light.",
+      narrative: "Moonstone's signature glow — a soft, billowy light that seems to move beneath its surface as it's turned — is almost universally tied to cycles rather than fixed states: the moon's phases, emotional tides, fertility, and the rhythm of beginnings and endings repeating rather than happening once. It's rarely framed as a stone for a single, one-time use, and much more often recommended as a companion for anything recurring or cyclical, from a monthly practice to a recurring emotional pattern someone is trying to understand.",
+      propertyGroups: {
+        "Spiritual": ["Attunes to lunar and natural cycles", "Supports intuition and dream recall"],
+        "Emotional": ["Balances fluctuating or cyclical emotions", "Nurtures new beginnings"],
+        "Mental": ["Encourages trust in timing rather than forcing outcomes"]
+      },
+      extendedUses: [
+        "Carry during a new moon to set intentions for a fresh start",
+        "Wear during times of hormonal or emotional fluctuation for balance",
+        "Keep by the bed to encourage vivid, memorable dreams",
+        "Use at the start of any recurring practice, monthly or otherwise",
+        "Pair with labradorite for a deeper, intuition-focused combination"
+      ]
+    }
   },
   {
     id: "onyx",
@@ -853,7 +901,23 @@ const CRYSTALS = [
     affirmation: "I have the strength and discipline to endure and grow.",
     uses: ["Carry during periods requiring discipline, such as training or a demanding project", "Keep as a grounding touchstone during conflict"],
     careNotes: "Durable; safe for water and sunlight.",
-    pairsWith: ["black-tourmaline", "hematite", "tigers-eye"]
+    pairsWith: ["black-tourmaline", "hematite", "tigers-eye"],
+    deepDive: {
+      history: "Onyx takes its name from the Greek onyx, \"fingernail\" or \"claw\" — according to one classical myth, Cupid once trimmed the sleeping Venus's fingernails with an arrow tip, and because nothing belonging to a goddess could simply vanish, the fates turned the clippings to stone. Romans carved onyx extensively into cameos and seal rings for its clean, even banding, though some ancient cultures approached it more cautiously than other stones, associating its deep black color with sorrow or ill omen when worn carelessly.",
+      narrative: "That slightly more complicated reputation has carried into modern use: onyx is treated less as a purely comforting stone and more as one tied to discipline, endurance, and controlled strength — qualities that require some friction to build. It's rarely recommended as a stone to simply relax with, and much more often as one to lean on specifically when something difficult needs to be endured, finished, or gotten through on willpower rather than ease.",
+      propertyGroups: {
+        "Mental": ["Builds self-discipline and focus", "Supports endurance through a hard task"],
+        "Emotional": ["Steadies the nerves during conflict", "Encourages quiet, controlled strength"],
+        "Protective": ["Traditionally worn to guard against draining situations"]
+      },
+      extendedUses: [
+        "Carry during periods requiring discipline, such as training or a demanding project",
+        "Keep as a grounding touchstone during conflict",
+        "Hold before a task you know will require sheer persistence",
+        "Wear during a long project's final, most difficult stretch",
+        "Pair with hematite for a combined discipline-and-focus stack"
+      ]
+    }
   },
   {
     id: "peridot",
@@ -875,7 +939,23 @@ const CRYSTALS = [
     affirmation: "I release resentment and grow toward abundance and joy.",
     uses: ["Wear during periods of personal growth or starting fresh", "Hold when working through feelings of jealousy or resentment"],
     careNotes: "Sensitive to sudden temperature shifts and some household chemicals — clean gently, avoid ultrasonic cleaners.",
-    pairsWith: ["aventurine", "prehnite", "citrine"]
+    pairsWith: ["aventurine", "prehnite", "citrine"],
+    deepDive: {
+      history: "Egyptians mined peridot over 3,500 years ago on Zabargad, a small Red Sea island they called Topazios, calling the stone the \"gem of the sun.\" Some gemologists now believe several of Cleopatra's famed \"emeralds\" were actually peridot from this very island, a mix-up ancient trade records never fully resolved. In Hawaii, where peridot occurs naturally in volcanic sand, it's traditionally associated with Pele, the goddess of volcanoes and fire, giving the stone an entirely separate mythology an ocean away from Egypt.",
+      narrative: "Peridot is one of the few gems that forms deep within the Earth's mantle rather than closer to the surface, occasionally delivered upward by volcanic activity — a literal journey from deep pressure into bright, visible green. That geological path mirrors its metaphysical reputation closely: peridot is almost always framed around release and renewal, letting go of something old (resentment, jealousy, a grudge) specifically to make room for new growth, rather than holding onto comfort or the familiar.",
+      propertyGroups: {
+        "Emotional": ["Releases resentment and jealousy", "Supports a positive, open outlook"],
+        "Spiritual": ["Encourages renewal and personal growth", "Opens the Heart and Solar Plexus together"],
+        "Mental": ["Clears space for new ideas after letting go of old ones"]
+      },
+      extendedUses: [
+        "Wear during periods of personal growth or starting fresh",
+        "Hold when working through feelings of jealousy or resentment",
+        "Keep nearby during a deliberate \"letting go\" ritual or journaling session",
+        "Use at the close of a difficult chapter, right before beginning a new one",
+        "Pair with citrine for a combined renewal-and-abundance focus"
+      ]
+    }
   },
   {
     id: "prehnite",
@@ -897,7 +977,23 @@ const CRYSTALS = [
     affirmation: "I prepare with peace and meet the future with an open heart.",
     uses: ["Hold during meditation focused on planning or foresight", "Keep nearby during times requiring patience and preparation"],
     careNotes: "Moderately durable; safe for brief water contact, but avoid prolonged sun exposure.",
-    pairsWith: ["peridot", "kunzite", "rhodochrosite"]
+    pairsWith: ["peridot", "kunzite", "rhodochrosite"],
+    deepDive: {
+      history: "Prehnite holds a small but notable distinction in mineralogy: it was the first mineral ever named after a person. Dutch colonial officer and amateur mineral collector Hendrik von Prehn brought the first specimens to Europe from South Africa's Cape of Good Hope in the 1780s, and the stone was named in his honor shortly after. Compared to stones carried through thousands of years of continuous use, prehnite's documented history is barely two and a half centuries old.",
+      narrative: "Without ancient lore to draw from, prehnite's metaphysical reputation has been built almost entirely around one specific, fairly unusual theme: foresight. It's sometimes called the \"stone of prophecy,\" not in a dramatic, fortune-telling sense, but in the quieter sense of being well-prepared — calm, organized, and a step ahead of what's coming. That makes it a stone people reach for before something rather than during or after it, less about processing the past and more about readiness for what's next.",
+      propertyGroups: {
+        "Mental": ["Supports foresight and preparation", "Calms a mind before it needs calming"],
+        "Spiritual": ["Said to support prophetic or anticipatory insight"],
+        "Emotional": ["Encourages patience while waiting on something uncertain"]
+      },
+      extendedUses: [
+        "Hold during meditation focused on planning or foresight",
+        "Keep nearby during times requiring patience and preparation",
+        "Use before a big decision or event you want to feel ready for, not just reactive to",
+        "Place on a desk during planning or strategy work",
+        "Pair with kunzite when preparation also involves a vulnerable emotional topic"
+      ]
+    }
   },
   {
     id: "rhodochrosite",
