@@ -1283,7 +1283,23 @@ const CRYSTALS = [
     affirmation: "I speak honestly, heal fully, and feel whole.",
     uses: ["Wear as jewelry for everyday protective, grounding support", "Keep nearby during healing work of any kind, physical or emotional"],
     careNotes: "Porous and sensitive to oils, chemicals, and prolonged water exposure, which can discolor it over time. Avoid perfumes and lotions on jewelry pieces.",
-    pairsWith: ["lapis-lazuli", "tanzanite", "topaz"]
+    pairsWith: ["lapis-lazuli", "tanzanite", "topaz"],
+    deepDive: {
+      history: "Turquoise has been treasured continuously for over 6,000 years, longer than almost any other gem in regular use today. It adorned Egyptian pharaohs, including pieces found within Tutankhamun's burial mask, and Persian turquoise — prized as among the finest in the world — once covered the domes of palaces, believed to protect those beneath from death by unnatural causes. Across the American Southwest, the Navajo, Pueblo, and Apache peoples have regarded turquoise as sacred for centuries, linking its color directly to sky and life-giving water.",
+      narrative: "Turquoise's long, nearly universal reputation as a protective stone draws its strength from exactly that cross-cultural consistency — very few stones have been independently valued for protection by so many unconnected civilizations across so many centuries. That consistency has shaped its modern role as a kind of all-purpose guardian stone: not specialized toward one narrow fear, but generally protective of health, safety, and honest communication all at once.",
+      propertyGroups: {
+        "Protective": ["Traditionally worn as an all-purpose guardian stone", "Associated with physical safety and travel"],
+        "Spiritual": ["Connects to sky, water, and life-force"],
+        "Emotional": ["Supports honest, open communication"]
+      },
+      extendedUses: [
+        "Wear as jewelry for everyday protective, grounding support",
+        "Keep nearby during healing work of any kind, physical or emotional",
+        "Carry while traveling, continuing its long tradition as a protective travel stone",
+        "Use before a conversation that requires both honesty and courage",
+        "Pair with lapis lazuli for a combined truth-and-protection duo"
+      ]
+    }
   },
   {
     id: "smoky-quartz",
@@ -1305,7 +1321,23 @@ const CRYSTALS = [
     affirmation: "I release tension and stand steady on solid ground.",
     uses: ["Carry during high-stress days to stay calm and centered", "Place near electronics or in a busy room to ease mental clutter", "Pair with clear quartz to balance amplification with grounding"],
     careNotes: "Durable; safe for water and sunlight, though prolonged strong sun can lighten its color over many years.",
-    pairsWith: ["black-tourmaline", "hematite", "clear-quartz"]
+    pairsWith: ["black-tourmaline", "hematite", "clear-quartz"],
+    deepDive: {
+      history: "Under the name cairngorm, smoky quartz became a genuine national gem of Scotland, mined from the Cairngorm Mountains and cut into the handles of ceremonial dirks, sporrans, and kilt pins worn as part of formal Highland dress for centuries. Queen Victoria's well-documented fondness for the Scottish Highlands in the 19th century only deepened the stone's popularity, cementing its place in Scottish jewelry tradition well beyond its original highland sourcing.",
+      narrative: "Smoky quartz occupies an unusual middle ground in the quartz family — warmer and earthier than clear quartz, but without the intensity of darker protective stones like black tourmaline or obsidian. That in-between quality is central to its reputation: it's consistently described as one of the gentlest, most approachable grounding stones, suited to daily, ongoing use rather than acute crisis, which is part of why it's so often recommended to people newer to crystal work.",
+      propertyGroups: {
+        "Emotional": ["Eases everyday stress and tension", "Supports steady emotional balance"],
+        "Spiritual": ["Grounds energy gently, without heaviness"],
+        "Protective": ["Softly absorbs anxious or negative energy"]
+      },
+      extendedUses: [
+        "Carry during high-stress days to stay calm and centered",
+        "Place near electronics or in a busy room to ease mental clutter",
+        "Pair with clear quartz to balance amplification with grounding",
+        "Wear daily as a gentle, ongoing grounding practice",
+        "Keep on a desk for a calm, steady presence during long workdays"
+      ]
+    }
   },
   {
     id: "obsidian",
@@ -1327,7 +1359,23 @@ const CRYSTALS = [
     affirmation: "I face what is true, even when it's uncomfortable, and I am protected as I do.",
     uses: ["Hold during shadow work or therapy-adjacent reflection", "Keep near the front door as a protective stone", "Use a polished piece for scrying or mirror meditation"],
     careNotes: "Brittle and prone to chipping or sharp fractures — handle with care. Safe for brief water contact; avoid sudden temperature changes.",
-    pairsWith: ["black-tourmaline", "smoky-quartz", "hematite"]
+    pairsWith: ["black-tourmaline", "smoky-quartz", "hematite"],
+    deepDive: {
+      history: "Obsidian takes its name from Obsius, a Roman who, according to the naturalist Pliny the Elder, first brought a similar glassy stone back from Ethiopia. Its deepest history, though, belongs to Mesoamerica: Aztec and Maya civilizations shaped obsidian into ceremonial blades, arrowheads, and famously, mirrors — one surviving Aztec obsidian mirror later found its way into the hands of John Dee, Elizabethan court astrologer, who reportedly used it for scrying and divination, a piece now held in the British Museum.",
+      narrative: "Obsidian forms almost instantly as lava cools, with no time to crystallize — a violent, immediate process that lines up closely with its metaphysical reputation as a stone with no patience for comfortable avoidance. Where many protective stones work by softening or filtering difficult energy, obsidian is usually described as working by direct confrontation: showing a truth plainly, in a single reflective surface, rather than easing someone toward it gradually.",
+      propertyGroups: {
+        "Spiritual": ["Supports shadow work and honest self-confrontation", "Traditionally used for scrying and divination"],
+        "Protective": ["Blunt, strong protective energy"],
+        "Emotional": ["Surfaces avoided feelings directly"]
+      },
+      extendedUses: [
+        "Hold during shadow work or therapy-adjacent reflection",
+        "Keep near the front door as a protective stone",
+        "Use a polished piece for scrying or mirror meditation",
+        "Carry during a period when you know you've been avoiding something",
+        "Pair with smoky quartz to soften its intensity with gentler grounding"
+      ]
+    }
   },
   {
     id: "pyrite",
@@ -1349,7 +1397,23 @@ const CRYSTALS = [
     affirmation: "I act on opportunity with confidence, and abundance follows.",
     uses: ["Keep on a desk or in a cash drawer to invite prosperity", "Carry before a negotiation or big ask for a confidence boost"],
     careNotes: "Can tarnish or oxidize with prolonged moisture exposure — avoid water and humid storage, wipe with a dry cloth.",
-    pairsWith: ["citrine", "tigers-eye", "carnelian"]
+    pairsWith: ["citrine", "tigers-eye", "carnelian"],
+    deepDive: {
+      history: "Pyrite's name comes from the Greek pyr, \"fire,\" because striking it against steel or flint throws a visible spark — a property humans relied on for fire-starting and, later, for the ignition mechanism in early wheellock firearms. The Inca are believed to have polished pyrite into mirrors centuries before European glass mirrors arrived in the Americas. Its most famous nickname, \"Fool's Gold,\" comes from its habit of deceiving hopeful prospectors throughout gold rushes across multiple continents and centuries.",
+      narrative: "That history of being mistaken for something more valuable than it actually is sits at the center of pyrite's modern reputation — not as a stone that creates wealth out of nothing, but one that sharpens the judgment needed to recognize real opportunity versus a false one. It's as often associated with discernment and confidence in decision-making as with raw prosperity, treated like a stone that rewards clear-eyed action rather than wishful thinking.",
+      propertyGroups: {
+        "Mental": ["Sharpens judgment and discernment", "Builds confidence in decision-making"],
+        "Spiritual": ["Attracts abundance and opportunity"],
+        "Protective": ["Traditionally seen as a shield against negative energy"]
+      },
+      extendedUses: [
+        "Keep on a desk or in a cash drawer to invite prosperity",
+        "Carry before a negotiation or big ask for a confidence boost",
+        "Hold while evaluating whether an opportunity is actually worth pursuing",
+        "Place in a workspace associated with sales, business, or finance",
+        "Pair with citrine for a doubled abundance-and-confidence combination"
+      ]
+    }
   },
   {
     id: "jade",
@@ -1371,7 +1435,23 @@ const CRYSTALS = [
     affirmation: "I move through life in harmony, carrying luck and protection with me.",
     uses: ["Carry or wear jade as an everyday luck and protection talisman", "Place a jade piece near a home's entrance for harmonious energy, a common feng shui practice"],
     careNotes: "Durable; safe for water. Avoid harsh chemicals and extreme heat, which can affect its polish.",
-    pairsWith: ["aventurine", "rose-quartz", "citrine"]
+    pairsWith: ["aventurine", "rose-quartz", "citrine"],
+    deepDive: {
+      history: "Few gemstones carry as much continuous cultural weight as jade. In China, it's been valued above gold for over 5,000 years, carved into imperial seals and ceremonial objects, with Confucius himself writing about jade's qualities as a direct reflection of human virtues like benevolence, wisdom, and justice. An ocean away, Olmec, Maya, and Aztec civilizations independently prized jadeite above gold as well, using it in royal funerary masks, while in New Zealand, Māori carvers have shaped pounamu (nephrite jade) into treasured ancestral objects passed down for generations, each piece considered to carry the mana (spiritual power) of those who held it before.",
+      narrative: "That remarkable pattern — multiple, entirely unconnected civilizations independently deciding jade mattered more than gold — gives it a kind of credibility few other stones carry. Jade's metaphysical reputation for luck and harmony isn't built on one culture's folklore but on a near-universal human instinct, and it's treated less as a stone for a single ritual moment and more as a long-term companion, traditionally passed down rather than used once and replaced.",
+      propertyGroups: {
+        "Spiritual": ["Invites luck and harmonious energy", "Carries protective, ancestral significance"],
+        "Emotional": ["Supports steady, long-term emotional balance"],
+        "Protective": ["Traditionally worn as a lifelong protective talisman"]
+      },
+      extendedUses: [
+        "Carry or wear jade as an everyday luck and protection talisman",
+        "Place a jade piece near a home's entrance for harmonious energy, a common feng shui practice",
+        "Pass down a meaningful piece as an heirloom, honoring its traditional role",
+        "Keep nearby during long-term goals rather than short-term wishes",
+        "Pair with aventurine for a doubled luck-and-opportunity focus"
+      ]
+    }
   },
   {
     id: "garnet",
@@ -1393,7 +1473,23 @@ const CRYSTALS = [
     affirmation: "I move forward with passion, courage, and steady endurance.",
     uses: ["Wear or carry during physically or emotionally demanding periods for stamina", "Keep nearby when recommitting to a long-term goal"],
     careNotes: "Durable; safe for water. Avoid sudden temperature changes and prolonged strong sun.",
-    pairsWith: ["carnelian", "hematite", "black-tourmaline"]
+    pairsWith: ["carnelian", "hematite", "black-tourmaline"],
+    deepDive: {
+      history: "Garnet's name comes from the Latin granatum, \"pomegranate,\" for its uncanny resemblance to the fruit's deep red seeds. Jewish legend holds that Noah hung a glowing garnet lantern aboard the Ark to light the way through the flood's darkness, and medieval crusaders and warriors across Europe commonly carried garnet amulets into battle, believing them capable of stopping bleeding and offering protection from injury. Centuries later, deep red garnet became a defining stone of Victorian mourning jewelry, worn to honor the memory of the dead.",
+      narrative: "Garnet's long association with both battle and blood points toward a consistent theme across its history: vitality under real physical or emotional strain. It's rarely framed as a stone for quiet, easy moments, and much more often recommended specifically for periods that demand stamina — recovery, endurance, or simply the will to keep going when stopping would be easier. That thread runs from medieval battlefield amulets straight through to its modern use.",
+      propertyGroups: {
+        "Emotional": ["Builds stamina through difficult periods", "Encourages passionate commitment"],
+        "Mental": ["Supports perseverance and follow-through"],
+        "Spiritual": ["Activates the Root chakra's vital, grounded energy"]
+      },
+      extendedUses: [
+        "Wear or carry during physically or emotionally demanding periods for stamina",
+        "Keep nearby when recommitting to a long-term goal",
+        "Use during recovery from illness, injury, or burnout",
+        "Hold before a task that requires more endurance than enthusiasm",
+        "Pair with hematite for a combined vitality-and-grounding stack"
+      ]
+    }
   },
   {
     id: "sodalite",
@@ -1415,7 +1511,23 @@ const CRYSTALS = [
     affirmation: "I think clearly and speak my truth with calm confidence.",
     uses: ["Keep on a desk during research, writing, or study", "Hold before a conversation that needs calm, rational honesty"],
     careNotes: "Durable; safe for water, though prolonged strong sun can fade its color.",
-    pairsWith: ["lapis-lazuli", "blue-lace-agate", "celestite"]
+    pairsWith: ["lapis-lazuli", "blue-lace-agate", "celestite"],
+    deepDive: {
+      history: "Sodalite was first identified in Greenland in 1811, but it stayed a minor curiosity until large, gem-quality deposits were discovered in Ontario, Canada, in 1891. Those Canadian deposits were specifically mined to help decorate Marlborough House in London ahead of a royal visit, and the sudden association with British royalty gave sodalite an unexpected boost in popularity as an ornamental stone almost overnight.",
+      narrative: "Sodalite is frequently mistaken for lapis lazuli at a glance, but it lacks lapis's golden pyrite flecks and carries a cooler, more uniform blue — a visual difference that maps neatly onto their differing reputations. Where lapis is tied to ancient wisdom and sacred status, sodalite's more modern, practical identity centers on everyday logic and honest communication: less about timeless truth, more about thinking clearly enough to say something accurate right now.",
+      propertyGroups: {
+        "Mental": ["Supports logical, rational thinking", "Clears mental fog before a decision"],
+        "Spiritual": ["Encourages self-trust and inner authority"],
+        "Emotional": ["Calms emotional reactivity before it's spoken aloud"]
+      },
+      extendedUses: [
+        "Keep on a desk during research, writing, or study",
+        "Hold before a conversation that needs calm, rational honesty",
+        "Use during a decision that requires setting emotion aside briefly",
+        "Place near a workspace prone to miscommunication or confusion",
+        "Pair with lapis lazuli when logic and wisdom both need to be present"
+      ]
+    }
   },
   {
     id: "amazonite",
@@ -1437,7 +1549,23 @@ const CRYSTALS = [
     affirmation: "I communicate from a place of calm, balance, and honesty.",
     uses: ["Keep nearby during anxious or emotionally charged moments", "Hold before a conversation that needs calm honesty rather than reactivity"],
     careNotes: "Moderately durable; safe for brief water contact, but avoid prolonged sun exposure, which can fade its color.",
-    pairsWith: ["blue-lace-agate", "aventurine", "rose-quartz"]
+    pairsWith: ["blue-lace-agate", "aventurine", "rose-quartz"],
+    deepDive: {
+      history: "Amazonite's name points to the Amazon River, though the mineral has never actually been found there in significant quantity — most historians believe early collectors confused it with another green stone genuinely sourced from the region, and the name simply stuck. Ancient Egyptians valued it regardless of the naming mix-up, including pieces in Tutankhamun's tomb, and some later legends tied it to the mythical Amazon warriors, said to have decorated their shields with its striking blue-green color.",
+      narrative: "Amazonite's soft, mottled blue-green is consistently described in terms of balance rather than any single strong emotion — not purely calming like a pale blue stone, nor purely heart-centered like green, but genuinely both at once. That blended quality supports its reputation as a stone specifically for emotional regulation: not suppressing a strong reaction, but catching it early enough to respond rather than react, especially in conversations that could easily tip into conflict.",
+      propertyGroups: {
+        "Emotional": ["Soothes emotional extremes", "Calms anxiety before it becomes reactive"],
+        "Spiritual": ["Balances the Heart and Throat together"],
+        "Mental": ["Supports honest, measured communication"]
+      },
+      extendedUses: [
+        "Keep nearby during anxious or emotionally charged moments",
+        "Hold before a conversation that needs calm honesty rather than reactivity",
+        "Use during a disagreement where staying measured matters more than winning",
+        "Place in a shared space prone to tension or miscommunication",
+        "Pair with blue lace agate for an especially gentle, throat-focused combination"
+      ]
+    }
   }
 ];
 
