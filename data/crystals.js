@@ -24,7 +24,25 @@ const CRYSTALS = [
     affirmation: "My mind is calm, my spirit is clear, and I trust what I know.",
     uses: ["Place under your pillow to ease insomnia and restless dreams", "Hold during meditation to deepen focus", "Keep on a desk during stressful work to stay level-headed"],
     careNotes: "Sunlight will fade its color over time — keep out of direct sun for long periods. Safe for brief water contact, but avoid prolonged soaking.",
-    pairsWith: ["clear-quartz", "rose-quartz", "selenite", "labradorite"]
+    pairsWith: ["clear-quartz", "rose-quartz", "selenite", "labradorite"],
+    deepDive: {
+      history: "Amethyst has been prized for over 2,000 years. Its name comes from the Greek amethystos, \"not intoxicated\" — ancient Greeks carved wine goblets from it in the belief it warded off drunkenness. Medieval bishops wore amethyst rings as a symbol of piety, and until massive deposits were discovered in Brazil in the 19th century, it was valued alongside ruby and emerald as one of the rarest gemstones known.",
+      narrative: "Beyond its reputation for calm, amethyst is considered a stone of spiritual protection — a kind of psychic filter that softens chaotic or overwhelming energy before it fully takes hold. It's traditionally kept in meditation spaces to deepen practice, and its tie to the Third Eye is less about abstract \"intuition\" and more about a specific, practical ability: the pause before reacting, the moment of clarity before a situation gets reflexively misread. That's part of why it's so closely tied to sobriety and breaking unwanted patterns — it doesn't suppress an impulse so much as create enough stillness to choose differently in the moment it arises.",
+      propertyGroups: {
+        "Emotional": ["Soothes anxiety", "Eases grief", "Encourages patience"],
+        "Mental": ["Sharpens focus", "Quiets racing thoughts", "Supports clear decision-making"],
+        "Spiritual": ["Opens the Third Eye", "Deepens meditation", "Connects to higher guidance"],
+        "Protective": ["Shields against emotional overwhelm", "Guards against addictive or compulsive patterns"]
+      },
+      extendedUses: [
+        "Place a cluster in a meditation or prayer space to deepen practice",
+        "Keep by the bed to ease insomnia and anxious dreaming",
+        "Hold during a moment of temptation or compulsive urge as a grounding pause",
+        "Wear as jewelry when navigating emotionally charged environments",
+        "Build into a crystal grid for spiritual protection around the home",
+        "Gift to someone moving through grief or a difficult transition"
+      ]
+    }
   },
   {
     id: "angelite",
@@ -486,7 +504,24 @@ const CRYSTALS = [
     affirmation: "I welcome transformation, even when it moves quickly, and I stay grounded through it.",
     uses: ["Start with short sessions (a few minutes) rather than constant wear, given its intensity", "Pair with a grounding stone like black tourmaline or hematite to balance its high energy"],
     careNotes: "Durable (it's glass), but genuine moldavite is often expensive and faked — buy from reputable sources. Safe for brief water contact; avoid harsh impacts.",
-    pairsWith: ["charoite", "labradorite", "black-tourmaline", "clear-quartz"]
+    pairsWith: ["charoite", "labradorite", "black-tourmaline", "clear-quartz"],
+    deepDive: {
+      history: "Moldavite's origin story is, quite literally, extraterrestrial. Roughly 15 million years ago, a meteorite struck what is now southern Germany with such force that molten material was ejected hundreds of kilometers away, raining down and cooling into glassy green fragments across the Moldau (Vltava) river valley in the Czech Republic — the only place on Earth it's found. It's turned up in jewelry and tools since prehistoric times, and Central European folklore has long told of \"stones from the sky\" carrying unusual fortune.",
+      narrative: "Because of this violent, cosmic origin, moldavite has a reputation unlike almost any other stone in metaphysical practice. Many describe a \"moldavite flush\" — a sudden warmth or even emotional intensity on first holding one, as if its transformative energy is immediate rather than gentle and gradual. It's associated with rapid, sometimes uncomfortable personal change: old patterns, relationships, or circumstances that no longer serve you may shift or fall away quickly once you start working with it. For this reason, most experienced practitioners recommend easing into moldavite slowly, pairing it with grounding stones rather than wearing it constantly from day one.",
+      propertyGroups: {
+        "Emotional": ["Surfaces buried emotions quickly", "Can trigger cathartic release"],
+        "Mental": ["Breaks rigid thought patterns", "Accelerates clarity, sometimes abruptly"],
+        "Spiritual": ["Awakens the heart-mind connection", "Said to activate multiple chakras at once", "Connects to a cosmic or universal perspective"],
+        "Protective": ["Best paired with a grounding stone to buffer its intensity"]
+      },
+      extendedUses: [
+        "Start with just a few minutes of holding it rather than all-day wear",
+        "Pair with black tourmaline or hematite to stay grounded through its intensity",
+        "Use during a major life transition you're consciously choosing to lean into",
+        "Journal immediately after a moldavite meditation to capture sudden insights",
+        "Avoid using it during an already-overwhelming period — its energy tends to add, not soothe"
+      ]
+    }
   },
   {
     id: "moonstone",
@@ -618,7 +653,25 @@ const CRYSTALS = [
     affirmation: "I am worthy of love, and I offer compassion to myself and others.",
     uses: ["Keep on a nightstand or in a relationship space to encourage loving energy", "Hold during self-care or self-love practices"],
     careNotes: "Durable; safe for water, though prolonged strong sun can fade its color slightly over years.",
-    pairsWith: ["clear-quartz", "rhodochrosite", "kunzite", "amethyst"]
+    pairsWith: ["clear-quartz", "rhodochrosite", "kunzite", "amethyst"],
+    deepDive: {
+      history: "Rose quartz has played a role in beauty and healing rituals for millennia — archaeological evidence shows rose quartz face masks and jewelry in use roughly 7,000 years ago in Mesopotamia, and ancient Egyptians incorporated it into early skincare in the belief it could slow aging. Romans carved rose quartz into seals to mark ownership, and across Tibetan tradition it has long symbolized compassion and the open heart. Its pairing with Venus, goddess of love, in Western metaphysical tradition echoes its soft, warm color.",
+      narrative: "Rose quartz is most often framed as a romantic love stone, but its deeper reputation is really about compassion in the broadest sense — toward oneself, toward family, toward strangers passing through a hard moment. It's considered especially suited to repairing a guarded or wounded heart, not by forcing it open, but by creating a gentle, non-demanding space in which trust can slowly return on its own terms. Many describe its energy as maternal: nurturing without being saccharine, soft without being weak.",
+      propertyGroups: {
+        "Emotional": ["Heals heartbreak", "Encourages self-forgiveness", "Softens grief"],
+        "Mental": ["Quiets self-critical thoughts", "Encourages patience with yourself"],
+        "Spiritual": ["Opens the Heart chakra", "Connects to unconditional love", "Supports a compassion practice"],
+        "Protective": ["Buffers against emotional harshness", "Guards against creeping cynicism"]
+      },
+      extendedUses: [
+        "Place on the chest during rest or meditation to soften emotional guardedness",
+        "Keep in a shared space like a bedroom or living room to support harmonious relationships",
+        "Use during self-love or self-forgiveness journaling practices",
+        "Gift to a friend moving through heartbreak",
+        "Carry during family gatherings that tend to surface old wounds",
+        "Place near a mirror as a daily, low-key reminder of self-compassion"
+      ]
+    }
   },
   {
     id: "selenite",

@@ -152,6 +152,44 @@ function renderGrid() {
 
 function findCrystal(id) { return CRYSTALS.find(c => c.id === id); }
 
+function deepDiveHTML(crystal) {
+  const d = crystal.deepDive;
+  if (!d) return "";
+  const groups = d.propertyGroups || {};
+  const groupsHTML = Object.keys(groups).map(label => `
+    <div class="deep-dive-group">
+      <h5>${label}</h5>
+      <div class="property-pills">${groups[label].map(p => `<span class="tag">${p}</span>`).join("")}</div>
+    </div>`).join("");
+
+  return `
+    <details class="deep-dive">
+      <summary>Explore the deeper meaning</summary>
+      <div class="deep-dive-content">
+        ${d.history ? `
+        <div class="deep-dive-block">
+          <h4>History &amp; Origin</h4>
+          <p>${d.history}</p>
+        </div>` : ""}
+        ${d.narrative ? `
+        <div class="deep-dive-block">
+          <h4>Deeper Meaning</h4>
+          <p>${d.narrative}</p>
+        </div>` : ""}
+        ${groupsHTML ? `
+        <div class="deep-dive-block">
+          <h4>Properties, In Depth</h4>
+          ${groupsHTML}
+        </div>` : ""}
+        ${d.extendedUses && d.extendedUses.length ? `
+        <div class="deep-dive-block">
+          <h4>More Ways to Use</h4>
+          <ul class="plain-list">${d.extendedUses.map(u => `<li>${u}</li>`).join("")}</ul>
+        </div>` : ""}
+      </div>
+    </details>`;
+}
+
 function modalContentHTML(crystal) {
   const pairs = (crystal.pairsWith || []).map(findCrystal).filter(Boolean);
   return `
@@ -192,6 +230,8 @@ function modalContentHTML(crystal) {
       <h4>Ways to Use</h4>
       <ul class="plain-list">${crystal.uses.map(u => `<li>${u}</li>`).join("")}</ul>
     </div>
+
+    ${deepDiveHTML(crystal)}
 
     <div class="modal-section">
       <h4>Care &amp; Cleansing Notes</h4>
