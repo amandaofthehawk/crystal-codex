@@ -755,6 +755,7 @@ const CRYSTALS = [
   {
     id: "smoky-quartz",
     name: "Smoky Quartz",
+    photo: { file: "assets/photos/smoky-quartz.webp" },
     aliases: ["Cairngorm"],
     colors: ["Brown", "Black", "Gray"],
     mineralClass: "Quartz (silicate)",
@@ -797,6 +798,7 @@ const CRYSTALS = [
   {
     id: "pyrite",
     name: "Pyrite",
+    photo: { file: "assets/photos/pyrite.webp" },
     aliases: ["Fool's Gold"],
     colors: ["Gold", "Yellow"],
     mineralClass: "Iron sulfide",
@@ -818,6 +820,7 @@ const CRYSTALS = [
   {
     id: "jade",
     name: "Jade",
+    photo: { file: "assets/photos/jade.webp" },
     aliases: ["Nephrite"],
     colors: ["Green"],
     mineralClass: "Nephrite or jadeite (silicate)",
@@ -839,6 +842,7 @@ const CRYSTALS = [
   {
     id: "garnet",
     name: "Garnet",
+    photo: { file: "assets/photos/garnet.webp" },
     aliases: [],
     colors: ["Red"],
     mineralClass: "Silicate (garnet group)",
