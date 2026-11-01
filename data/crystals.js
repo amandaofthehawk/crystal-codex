@@ -777,6 +777,7 @@ const CRYSTALS = [
   {
     id: "obsidian",
     name: "Obsidian",
+    photo: { file: "assets/photos/obsidian.webp" },
     aliases: ["Volcanic Glass"],
     colors: ["Black"],
     mineralClass: "Volcanic glass (not a true mineral)",
@@ -864,6 +865,7 @@ const CRYSTALS = [
   {
     id: "sodalite",
     name: "Sodalite",
+    photo: { file: "assets/photos/sodalite.webp" },
     aliases: [],
     colors: ["Blue"],
     mineralClass: "Tectosilicate",
@@ -885,6 +887,7 @@ const CRYSTALS = [
   {
     id: "amazonite",
     name: "Amazonite",
+    photo: { file: "assets/photos/amazonite.webp" },
     aliases: [],
     colors: ["Blue", "Green"],
     mineralClass: "Feldspar (microcline)",
