@@ -1015,7 +1015,23 @@ const CRYSTALS = [
     affirmation: "I love myself fully, and I nurture the parts of me that need healing.",
     uses: ["Hold during inner-child or self-compassion meditation", "Keep nearby during emotional healing work or therapy"],
     careNotes: "Soft and sensitive to heat and acids — avoid prolonged sun and harsh cleaners. Safe for brief water contact.",
-    pairsWith: ["rose-quartz", "kunzite", "malachite"]
+    pairsWith: ["rose-quartz", "kunzite", "malachite"],
+    deepDive: {
+      history: "Rhodochrosite is closely tied to a single place: the Capillitas mine high in the Argentine Andes, source of most of the finest banded material sold today under the nickname \"Inca Rose.\" According to regional legend, the stone formed from the blood of ancient Incan rulers, turned to stone as it seeped into the earth — a story that, true or not, has stayed attached to the mineral since it first reached wider markets in the 20th century.",
+      narrative: "Rhodochrosite's concentric, target-like banding is frequently read almost literally, as layers built up around a center — a visual metaphor for how its emotional work is often described. Rather than general heart-healing, it's associated specifically with reconnecting to earlier, more vulnerable parts of oneself: inner-child work, reparenting, and the particular kind of self-love that has to reach back before it can move forward.",
+      propertyGroups: {
+        "Emotional": ["Supports inner-child and reparenting work", "Deepens self-love and self-forgiveness"],
+        "Spiritual": ["Opens the Heart chakra toward compassion for the self"],
+        "Mental": ["Encourages gentler self-talk"]
+      },
+      extendedUses: [
+        "Hold during inner-child or self-compassion meditation",
+        "Keep nearby during emotional healing work or therapy",
+        "Use during journaling that revisits an earlier, more vulnerable version of yourself",
+        "Place on the heart during rest after a hard emotional conversation",
+        "Pair with rose quartz for a deeper, double heart-centered focus"
+      ]
+    }
   },
   {
     id: "rose-quartz",
@@ -1077,7 +1093,23 @@ const CRYSTALS = [
     affirmation: "I clear what no longer serves me and welcome clarity and light.",
     uses: ["Place other crystals on a selenite slab or bowl to cleanse and recharge them", "Sweep a selenite wand around the body or a room to clear stagnant energy"],
     careNotes: "Extremely soft and water-soluble — never cleanse with water, keep away from humidity, and handle gently as it scratches and chips easily.",
-    pairsWith: ["clear-quartz", "black-tourmaline", "amethyst", "moonstone"]
+    pairsWith: ["clear-quartz", "black-tourmaline", "amethyst", "moonstone"],
+    deepDive: {
+      history: "Selenite is named after Selene, the Greek goddess of the moon, for its pale, glowing translucence. Long before it became a crystal-healing staple, selenite (gypsum) was used structurally — thin sheets of it served as an early substitute for glass in Medieval windows, sometimes called lapis specularis, letting soft, diffused light into buildings centuries before clear glass became widely affordable.",
+      narrative: "That history as a literal window — something light passes through rather than reflects off — lines up closely with selenite's modern reputation as one of the few stones considered self-cleansing, never needing to be cleared the way most other crystals do. It's treated less as a stone with its own fixed properties and more as a kind of conduit: clarity passing through rather than being generated, which is why it's so consistently used to clear and recharge other stones rather than to hold one meaning of its own.",
+      propertyGroups: {
+        "Spiritual": ["Clears and recharges other crystals", "Connects to the Crown chakra and higher awareness"],
+        "Mental": ["Brings mental clarity and a sense of a clean slate"],
+        "Emotional": ["Clears stagnant or heavy emotional energy from a space"]
+      },
+      extendedUses: [
+        "Place other crystals on a selenite slab or bowl to cleanse and recharge them",
+        "Sweep a selenite wand around the body or a room to clear stagnant energy",
+        "Keep a piece in each main room as an ongoing, low-maintenance clearing tool",
+        "Hold during meditation focused on starting fresh",
+        "Pair with black tourmaline for a combined clearing-and-protection stack"
+      ]
+    }
   },
   {
     id: "stilbite",
@@ -1099,7 +1131,23 @@ const CRYSTALS = [
     affirmation: "I relax into gentle insight and let my heart and mind align.",
     uses: ["Place on a nightstand to support relaxation and dream recall", "Hold during light meditation for gentle intuitive openness"],
     careNotes: "Delicate, fibrous structure — avoid water and handle with care to prevent flaking.",
-    pairsWith: ["prehnite", "moonstone", "lavender-quartz"]
+    pairsWith: ["prehnite", "moonstone", "lavender-quartz"],
+    deepDive: {
+      history: "Stilbite's name comes from the Greek stilbein, \"to glitter,\" given by French mineralogist René Just Haüy in 1797. As part of the zeolite family, it was studied extensively through the 18th and 19th centuries as mineralogists worked to classify the distinctive bow-tie and sheaf-shaped crystal clusters found in volcanic basalt formations, especially the Deccan Traps of India, still one of the richest sources of fine stilbite today.",
+      narrative: "Zeolites as a mineral family are well known in chemistry for their porous, almost sponge-like structure, able to absorb and release water and other molecules — a property that, loosely translated into metaphysical terms, feeds stilbite's gentle reputation for absorbing tension and softly releasing it rather than blocking or deflecting it outright. It's one of the least intense stones in regular crystal-healing use, rarely described as doing anything dramatic, which is exactly its appeal for people who find more \"powerful\" stones overstimulating.",
+      propertyGroups: {
+        "Emotional": ["Softens tension without overstimulating", "Supports gentle relaxation"],
+        "Spiritual": ["Bridges the Heart and Third Eye quietly"],
+        "Mental": ["Encourages restful, unforced dreaming"]
+      },
+      extendedUses: [
+        "Place on a nightstand to support relaxation and dream recall",
+        "Hold during light meditation for gentle intuitive openness",
+        "Keep nearby during a stressful but low-stakes day for subtle support",
+        "Use alongside prehnite when both calm and gentle foresight are needed",
+        "Choose stilbite specifically when other stones have felt like too much"
+      ]
+    }
   },
   {
     id: "tanzanite",
@@ -1121,7 +1169,23 @@ const CRYSTALS = [
     affirmation: "I awaken to deeper understanding and communicate it with clarity.",
     uses: ["Hold during deep or advanced meditation practice", "Wear near the throat when needing to articulate complex or intuitive ideas"],
     careNotes: "Sensitive to heat, pressure, and sudden temperature change — avoid ultrasonic cleaners and prolonged sun; store carefully to avoid scratches from harder stones.",
-    pairsWith: ["lapis-lazuli", "labradorite", "turquoise"]
+    pairsWith: ["lapis-lazuli", "labradorite", "turquoise"],
+    deepDive: {
+      history: "Tanzanite's entire history fits within a single human lifetime: it was discovered in 1967 in the Merelani Hills of northern Tanzania, reportedly first noticed by Maasai herders after a lightning-sparked grass fire scorched the hillside and turned brown zoisite crystals a vivid blue-violet, revealing the gem beneath. Tiffany & Co. recognized its potential almost immediately, naming it after the only country on Earth where it's found and launching a major marketing campaign that made it one of the most recognizable gemstones to emerge in the last century.",
+      narrative: "Because it's found in only one place, and that deposit is finite, tanzanite carries an unusual metaphysical weight for such a young stone — it's often described in terms of rarity and urgency, a once-in-an-era crystal rather than a renewable resource. That scarcity narrative blends with its trichroic quality (appearing blue, violet, or burgundy depending on the angle) to support its reputation as a stone of multidimensional awareness, encouraging a person to hold more than one perspective on a situation at once.",
+      propertyGroups: {
+        "Spiritual": ["Awakens multidimensional awareness", "Deepens meditation and inner vision"],
+        "Mental": ["Supports holding more than one perspective at once"],
+        "Emotional": ["Encourages transformation without panic about the unknown"]
+      },
+      extendedUses: [
+        "Hold during deep or advanced meditation practice",
+        "Wear near the throat when needing to articulate complex or intuitive ideas",
+        "Use during a decision that benefits from seeing more than one side clearly",
+        "Keep nearby during a once-in-a-while, high-stakes life event",
+        "Pair with lapis lazuli for a combined wisdom-and-insight focus"
+      ]
+    }
   },
   {
     id: "tigers-eye",
@@ -1143,7 +1207,23 @@ const CRYSTALS = [
     affirmation: "I act with courage, confidence, and grounded determination.",
     uses: ["Carry before a decision or action that requires courage", "Keep at work to stay confident and focused under pressure"],
     careNotes: "Durable; safe for water and sunlight.",
-    pairsWith: ["citrine", "carnelian", "hematite", "aventurine"]
+    pairsWith: ["citrine", "carnelian", "hematite", "aventurine"],
+    deepDive: {
+      history: "Tiger's eye was prized across ancient Egypt and Rome specifically for its chatoyant shimmer, read by both cultures as resembling a watchful, solar eye. Roman soldiers are said to have carried it into battle believing it granted courage and protection, and in Egyptian tradition it was associated with the all-seeing eye of Ra, the sun god — a stone meant to grant not just bravery but clear sight of danger before it arrived.",
+      narrative: "That chatoyant shimmer — a band of light that seems to move across the stone as it turns — comes from the same fibrous structure responsible for its name, and it's rarely separated from tiger's eye's reputation for confidence under pressure. Unlike stones associated with quiet inner work, tiger's eye is almost always framed around visible, external action: making a decision, standing your ground, or following through on something that requires nerve rather than reflection.",
+      propertyGroups: {
+        "Emotional": ["Builds courage and confidence", "Steadies nerves under pressure"],
+        "Mental": ["Sharpens focus during high-stakes decisions"],
+        "Protective": ["Traditionally carried for protection in conflict or danger"]
+      },
+      extendedUses: [
+        "Carry before a decision or action that requires courage",
+        "Keep at work to stay confident and focused under pressure",
+        "Hold before a negotiation, confrontation, or high-stakes conversation",
+        "Wear during a period where you need to visibly stand your ground",
+        "Pair with carnelian for a combined courage-and-momentum stack"
+      ]
+    }
   },
   {
     id: "topaz",
@@ -1165,7 +1245,23 @@ const CRYSTALS = [
     affirmation: "I manifest my goals with confidence and speak my truth.",
     uses: ["Wear during goal-setting rituals, especially around the new year", "Keep nearby when needing confidence in communication"],
     careNotes: "Hard and durable, but can cleave along internal planes if struck hard. Safe for water; avoid prolonged extreme heat.",
-    pairsWith: ["citrine", "lapis-lazuli", "turquoise"]
+    pairsWith: ["citrine", "lapis-lazuli", "turquoise"],
+    deepDive: {
+      history: "Topaz's name is tangled up with the same Red Sea island, Topazios (Zabargad), associated with peridot — ancient naming records conflated the two gems for centuries, and modern gemology didn't fully separate their identities until much later. Ancient Greeks believed topaz could increase physical strength and, in moments of true emergency, even render the wearer invisible. Golden \"Imperial\" topaz earned its name in 19th-century Russia, where fine specimens from the Ural Mountains were at one point restricted to the royal family alone.",
+      narrative: "Topaz's warm golden color and its old association with strength and protection have carried forward into a modern reputation built around manifestation and generosity — not quiet, internal growth, but visible, outward success shared openly rather than hoarded privately. It's frequently recommended specifically for goal-setting moments, treated less as a stone for processing the past and more as one for actively declaring and pursuing what comes next.",
+      propertyGroups: {
+        "Mental": ["Supports clear goal-setting", "Builds confidence in communication"],
+        "Spiritual": ["Encourages generosity alongside personal success"],
+        "Emotional": ["Lifts mood and builds optimism"]
+      },
+      extendedUses: [
+        "Wear during goal-setting rituals, especially around the new year",
+        "Keep nearby when needing confidence in communication",
+        "Hold while writing down a specific, ambitious intention",
+        "Use before a presentation, pitch, or public declaration of a goal",
+        "Pair with citrine for a doubled manifestation-and-confidence focus"
+      ]
+    }
   },
   {
     id: "turquoise",
