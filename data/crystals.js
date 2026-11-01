@@ -520,7 +520,23 @@ const CRYSTALS = [
     affirmation: "I am grounded, focused, and in control of my own energy.",
     uses: ["Hold at the end of a meditation or energy-work session to ground back into the body", "Carry during overwhelming days for steady focus"],
     careNotes: "Durable but can rust if left wet — dry thoroughly after any water contact. Safe for brief sun exposure.",
-    pairsWith: ["black-tourmaline", "tigers-eye", "onyx"]
+    pairsWith: ["black-tourmaline", "tigers-eye", "onyx"],
+    deepDive: {
+      history: "Hematite's name comes from the Greek haima, \"blood,\" not because of the stone's own metallic gray color but because of the deep red streak it leaves when ground into powder. That red powder — ochre — is among the oldest pigments used by humans, found in cave paintings and ceremonial burials tens of thousands of years old across multiple continents, and many cultures independently used ground hematite as body paint, including for war and ritual.",
+      narrative: "Hematite's weight is almost always part of its description — it's noticeably denser than most other stones its size, and that physical heaviness is treated as a direct metaphor for its grounding effect. Where many grounding stones work gently, hematite is often described as more immediate and literal: a stone that pulls focus back into the body and the present moment quickly, which is part of why it's so often reached for specifically at the end of energy work or meditation, rather than during it.",
+      propertyGroups: {
+        "Mental": ["Sharpens focus under pressure", "Supports logical, practical thinking"],
+        "Spiritual": ["Grounds energy quickly after inner work", "Anchors awareness back into the body"],
+        "Emotional": ["Builds steady willpower", "Stabilizes an overwhelmed or scattered mood"]
+      },
+      extendedUses: [
+        "Hold at the end of a meditation or energy-work session to ground back into the body",
+        "Carry during overwhelming or chaotic days for steady focus",
+        "Keep on a desk during demanding, detail-heavy tasks",
+        "Use before a high-stakes conversation that requires a level head",
+        "Pair with black tourmaline for a combined grounding-and-protection stack"
+      ]
+    }
   },
   {
     id: "howlite",
@@ -542,7 +558,23 @@ const CRYSTALS = [
     affirmation: "I respond with patience, and I release what frustrates me.",
     uses: ["Keep by the bed to quiet racing thoughts before sleep", "Carry during stressful situations to pause before reacting"],
     careNotes: "Soft and porous — easily scratched, and will absorb dyes/liquids. Avoid prolonged water exposure.",
-    pairsWith: ["blue-lace-agate", "lepidolite", "selenite"]
+    pairsWith: ["blue-lace-agate", "lepidolite", "selenite"],
+    deepDive: {
+      history: "Howlite was first described in 1868 by Canadian geologist Henry How, who identified the mineral in Nova Scotia — it's named directly after him, with no ancient mythology attached. Its real cultural footprint today is almost entirely practical: howlite's porous, absorbent white structure takes dye exceptionally well, so the vast majority of \"turquoise\" sold at low prices in costume jewelry is actually dyed howlite, a substitution that's been common in the gem trade for decades.",
+      narrative: "Despite that borrowed, dyed-turquoise reputation, howlite in its natural white-and-gray form has its own distinct identity as one of the calmest stones available — it's consistently described as useful specifically for anger and frustration, rather than sadness or fear. It doesn't suppress a reaction so much as slow it down just enough to choose a different response, which is why it's so often recommended for insomnia caused by a racing, irritated mind rather than general anxiety.",
+      propertyGroups: {
+        "Emotional": ["Calms anger and frustration", "Encourages patience under pressure"],
+        "Mental": ["Quiets a racing, irritated mind before sleep"],
+        "Spiritual": ["Supports emotional awareness before reacting"]
+      },
+      extendedUses: [
+        "Keep by the bed to quiet racing or irritated thoughts before sleep",
+        "Carry during a stressful day prone to short tempers",
+        "Hold for a moment before responding to something that's upset you",
+        "Use during meditation focused on processing anger constructively",
+        "Pair with blue lace agate for a doubly gentle, calming combination"
+      ]
+    }
   },
   {
     id: "kunzite",
@@ -564,7 +596,23 @@ const CRYSTALS = [
     affirmation: "I am open to love, beginning with the love I give myself.",
     uses: ["Place on the heart during rest to soften emotional guardedness", "Carry during times of heartbreak or self-criticism"],
     careNotes: "Can fade in strong sunlight and is brittle along its striations — handle gently and avoid drops. Safe for brief water contact.",
-    pairsWith: ["rose-quartz", "rhodochrosite", "prehnite"]
+    pairsWith: ["rose-quartz", "rhodochrosite", "prehnite"],
+    deepDive: {
+      history: "Kunzite is a distinctly early-20th-century stone: it was first identified and described in 1902, named after George Frederick Kunz, the renowned American gemologist and chief buyer for Tiffany & Co., who was the first to formally recognize it as a new gem variety of spodumene. Unlike stones carried through millennia of folklore, kunzite's reputation has been built almost entirely within the modern era of crystal healing, shaped more by 20th- and 21st-century practitioners than by ancient tradition.",
+      narrative: "Kunzite's pale lilac-to-pink color is consistently described in softer, more vulnerable terms than other Heart-chakra stones like rose quartz — where rose quartz is often framed as nurturing and warm, kunzite is more often described as delicate, even a little fragile, which mirrors its real-world brittleness. It's frequently recommended specifically for people who find it hard to receive love or support, rather than those learning to give it, with an emphasis on softening emotional defenses that have been up for a long time.",
+      propertyGroups: {
+        "Emotional": ["Softens long-held emotional guardedness", "Supports self-compassion"],
+        "Spiritual": ["Opens the Heart chakra gently", "Encourages receiving love, not just giving it"],
+        "Mental": ["Quiets self-critical inner dialogue"]
+      },
+      extendedUses: [
+        "Place on the heart during rest to soften emotional guardedness",
+        "Carry during a period of heartbreak or self-criticism",
+        "Use during meditation focused specifically on receiving support from others",
+        "Keep nearby during therapy or vulnerable emotional work",
+        "Pair with rose quartz for a deeper, two-stone heart-healing combination"
+      ]
+    }
   },
   {
     id: "labradorite",
@@ -586,7 +634,23 @@ const CRYSTALS = [
     affirmation: "I trust my intuition to reveal what I need to see.",
     uses: ["Hold during meditation to deepen intuitive insight", "Carry during major life transitions for a sense of protected transformation"],
     careNotes: "Durable enough for everyday wear; safe for water, but avoid prolonged strong sunlight.",
-    pairsWith: ["moonstone", "amethyst", "moldavite", "charoite"]
+    pairsWith: ["moonstone", "amethyst", "moldavite", "charoite"],
+    deepDive: {
+      history: "Labradorite was first documented by Moravian missionaries in Labrador, Canada, in 1770, though the Inuit had long known the stone before that. A well-known piece of Inuit folklore holds that the Northern Lights were once trapped inside a great rock along the Labrador coast, until a wandering warrior struck it free with his spear — most of the light escaped into the sky, but some remained captured within the stone, which is said to explain the flash of color, labradorescence, still visible inside it today.",
+      narrative: "That flash is really the center of labradorite's entire metaphysical identity — unlike most stones, whose meaning stays fairly constant as you turn them, labradorite visibly changes depending on the angle, appearing dull gray one moment and brilliant blue-green-gold the next. That shifting quality is why it's so consistently described as a stone of hidden depths and transformation: a reminder that there's more happening beneath a calm surface than is visible at first glance, in a stone and often in a person.",
+      propertyGroups: {
+        "Spiritual": ["Awakens intuitive and psychic ability", "Reveals what's hidden beneath the surface"],
+        "Mental": ["Supports seeing a situation from a new angle"],
+        "Protective": ["Said to shield energy during transformation or change"]
+      },
+      extendedUses: [
+        "Hold during meditation to deepen intuitive insight",
+        "Carry during a major life transition for a sense of protected transformation",
+        "Use before a situation where you suspect there's more going on than what's visible",
+        "Wear as jewelry during times you want to feel quietly, privately powerful",
+        "Pair with moonstone for an intuition-focused duo with complementary energy"
+      ]
+    }
   },
   {
     id: "lapis-lazuli",
@@ -608,7 +672,23 @@ const CRYSTALS = [
     affirmation: "I honor my truth and see myself with wisdom and clarity.",
     uses: ["Wear close to the throat to encourage honest self-expression", "Keep nearby during study of spiritual or philosophical topics"],
     careNotes: "Moderately soft and porous — avoid harsh chemicals and prolonged water soaking, which can dull its finish. Keep out of strong sun.",
-    pairsWith: ["azurite", "celestite", "amethyst"]
+    pairsWith: ["azurite", "celestite", "amethyst"],
+    deepDive: {
+      history: "Lapis lazuli is one of the oldest gemstones continuously valued by humans, mined in Afghanistan's Badakhshan region for over 6,000 years — the same deposits that supplied ancient Egypt, Mesopotamia, and eventually Renaissance Europe. It covered Tutankhamun's funeral mask, is mentioned in the Epic of Gilgamesh, and was ground into ultramarine, the most expensive pigment available to Renaissance painters, who reserved its use almost exclusively for the robes of the Virgin Mary due to the cost.",
+      narrative: "That extraordinary expense and exclusivity shaped lapis lazuli's reputation as a stone of status as much as spirituality — it has rarely been treated as an everyday stone and almost always as one connected to royalty, divinity, and the sacred. Its metaphysical association with truth and wisdom builds directly on that history: it was the material worn by those believed closest to the gods or to ultimate authority, which carried into its modern use as a stone for accessing one's own inner authority and honest self-knowledge.",
+      propertyGroups: {
+        "Spiritual": ["Connects to ancient, sacred wisdom traditions", "Deepens self-knowledge"],
+        "Mental": ["Encourages honest self-assessment"],
+        "Emotional": ["Builds quiet, grounded confidence"]
+      },
+      extendedUses: [
+        "Wear close to the throat to encourage honest self-expression",
+        "Keep nearby during study of spiritual, historical, or philosophical topics",
+        "Hold during meditation focused on your own inner authority or voice",
+        "Use during journaling meant to uncover an honest, sometimes uncomfortable truth",
+        "Pair with azurite for a deeper, more intensive Third Eye combination"
+      ]
+    }
   },
   {
     id: "lavender-quartz",
@@ -630,7 +710,23 @@ const CRYSTALS = [
     affirmation: "My heart and my intuition move together, gently and in balance.",
     uses: ["Hold during meditation that combines emotional release with intuitive reflection", "Place on the heart or forehead for quiet, grounded calm"],
     careNotes: "Durable like other quartz, but color can fade in strong sun over time. Safe for water cleansing.",
-    pairsWith: ["rose-quartz", "amethyst", "rhodochrosite"]
+    pairsWith: ["rose-quartz", "amethyst", "rhodochrosite"],
+    deepDive: {
+      history: "Unlike amethyst, its close relative, lavender quartz has no deep historical lineage of its own — it's a more recently distinguished quartz variety, separated out and named specifically within the modern gem trade once its subtler, paler purple tone was recognized as visually and energetically distinct from both amethyst and rose quartz. It carries quartz's long mineralogical history as a family, but its own specific identity is a fairly contemporary development.",
+      narrative: "Lavender quartz sits deliberately between two more established stones, and its metaphysical reputation reflects that in-between position directly — it's consistently described as blending amethyst's calm, intuitive clarity with rose quartz's heart-centered warmth, rather than being read as a wholly separate energy. That makes it a favorite for emotional work that also requires some mental clarity: processing a feeling without getting lost in it, or thinking something through without going cold and purely analytical.",
+      propertyGroups: {
+        "Emotional": ["Balances emotional intensity with calm", "Softens grief or sadness gently"],
+        "Spiritual": ["Bridges the Heart and Third Eye", "Combines intuition with compassion"],
+        "Mental": ["Supports clear-headed emotional processing"]
+      },
+      extendedUses: [
+        "Hold during meditation that combines emotional release with intuitive reflection",
+        "Place on the heart or forehead for quiet, grounded calm",
+        "Use during journaling that mixes feelings with decision-making",
+        "Keep nearby during a conversation that needs both honesty and gentleness",
+        "Pair with rose quartz or amethyst depending on which side of its blend you need more of that day"
+      ]
+    }
   },
   {
     id: "lepidolite",
