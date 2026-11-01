@@ -64,7 +64,23 @@ const CRYSTALS = [
     affirmation: "I am supported, I am at peace, and my words carry compassion.",
     uses: ["Hold during moments of grief or anxiety for a sense of being held", "Place near the throat area during meditation to encourage gentle, honest speech"],
     careNotes: "Very soft and water-soluble — never cleanse with water. Avoid direct sunlight, which can fade the blue. Handle gently; it chips easily.",
-    pairsWith: ["celestite", "blue-lace-agate", "selenite"]
+    pairsWith: ["celestite", "blue-lace-agate", "selenite"],
+    deepDive: {
+      history: "Unlike most stones in this collection, angelite has almost no ancient lore — it's a product of the New Age crystal movement, named by dealers after large Peruvian anhydrite deposits reached the market in the 1980s. The mineral itself (anhydrite) has been known to geologists far longer, but \"angelite\" as a healing stone is a distinctly modern invention, one of the few entries here without a centuries-old backstory.",
+      narrative: "That modern origin doesn't make its reputation any less specific: angelite is almost universally described as a stone of communication with angels, guides, or loved ones who have passed — less about predicting the future and more about feeling supported while grieving or facing uncertainty. Its pale, cloud-like blue is often read as calming in a way that goes beyond simple color association; many describe just holding it as enough to soften an anxious moment, without needing a particular ritual attached.",
+      propertyGroups: {
+        "Emotional": ["Eases grief", "Softens anxiety", "Offers a sense of being supported"],
+        "Spiritual": ["Said to open communication with angels or guides", "Encourages trust in a larger plan"],
+        "Mental": ["Quiets a racing mind before sleep"]
+      },
+      extendedUses: [
+        "Hold during moments of grief or loss when words feel insufficient",
+        "Keep on a nightstand during anxious periods for a sense of being watched over",
+        "Place near a journal used for processing difficult emotions",
+        "Use before a reading, prayer, or meditation focused on guidance",
+        "Pair with celestite for an especially gentle, calming duo"
+      ]
+    }
   },
   {
     id: "aventurine",
@@ -86,7 +102,23 @@ const CRYSTALS = [
     affirmation: "I welcome opportunity, abundance, and good fortune into my life.",
     uses: ["Carry in a pocket or wallet before a big opportunity, interview, or negotiation", "Place on the heart during rest to ease emotional tension"],
     careNotes: "Durable and safe to cleanse with water. Can tolerate moderate sunlight without fading significantly.",
-    pairsWith: ["citrine", "tigers-eye", "rose-quartz", "peridot"]
+    pairsWith: ["citrine", "tigers-eye", "rose-quartz", "peridot"],
+    deepDive: {
+      history: "Aventurine takes its name indirectly — from the Italian a ventura, \"by chance.\" The phrase originally described aventurine glass (also called goldstone), a sparkly man-made glass accidentally discovered by Murano glassmakers in the 17th century when metal flecks fell into molten glass. When a naturally sparkly green quartz was found decades later, it was named after the glass it resembled — an unusual case of a mineral being named for an imitation rather than the other way around.",
+      narrative: "Green aventurine's reputation as a luck stone has less to do with ancient ceremony and more with its everyday, approachable use — it's one of the most commonly recommended \"starter\" crystals precisely because its energy is gentle and its purpose is simple: inviting opportunity rather than forcing an outcome. It's considered especially suited to situations with real uncertainty, like a job interview or a first attempt at something new, where confidence matters more than control.",
+      propertyGroups: {
+        "Emotional": ["Eases nervousness before a new venture", "Softens old emotional patterns"],
+        "Spiritual": ["Opens the heart to possibility", "Invites rather than forces opportunity"],
+        "Mental": ["Supports an optimistic outlook", "Encourages taking a calculated chance"]
+      },
+      extendedUses: [
+        "Carry loose in a pocket before an interview, audition, or first date",
+        "Keep near the entry of a business or workspace",
+        "Hold while visualizing a specific opportunity opening up",
+        "Place in a wallet alongside citrine for a classic luck-and-abundance pairing",
+        "Give as a gift to someone starting something new"
+      ]
+    }
   },
   {
     id: "azurite",
@@ -108,7 +140,23 @@ const CRYSTALS = [
     affirmation: "I see clearly, within and beyond, and I release what no longer serves me.",
     uses: ["Hold during meditation to encourage intuitive insight", "Keep nearby during journaling or shadow work to surface hidden patterns"],
     careNotes: "Soft, copper-based, and can be toxic in dust/ingested form — never cleanse with water, never ingest or make elixirs, wash hands after extended handling. Keep away from direct sun.",
-    pairsWith: ["malachite", "labradorite", "lapis-lazuli"]
+    pairsWith: ["malachite", "labradorite", "lapis-lazuli"],
+    deepDive: {
+      history: "Azurite has been mined and ground into pigment since antiquity — Egyptian artists used it for blue tones in tomb paintings, and Chinese painters relied on it for centuries under the name \"mountain blue.\" Because it forms naturally alongside malachite, the two were sometimes carved from a single stone, their blue and green bands left intentionally visible. Azurite is also chemically unstable over very long timescales, slowly converting into malachite — a transformation early mineralogists observed without fully understanding, which only deepened its reputation as a stone connected to change.",
+      narrative: "That literal transformation — blue slowly becoming green within the same stone — feeds directly into azurite's metaphysical reputation as a stone of deep insight that doesn't stay comfortable forever. It's associated with breaking through old, rigid belief systems, often surfacing what's been avoided rather than soothing it immediately. Many describe azurite's energy as more demanding than a typical Third Eye stone: less about gentle intuition and more about confronting a truth clearly enough that it can't be unseen.",
+      propertyGroups: {
+        "Mental": ["Breaks up rigid or outdated beliefs", "Sharpens inner vision"],
+        "Spiritual": ["Deepens intuitive and psychic insight", "Connects to transformation as an ongoing process"],
+        "Emotional": ["Surfaces what's been avoided", "Supports honest self-reflection"]
+      },
+      extendedUses: [
+        "Hold during meditation focused on a belief you suspect is outdated",
+        "Keep nearby during journaling or shadow work",
+        "Use before a conversation that requires seeing a situation clearly, not comfortably",
+        "Pair with malachite to work with both stones' shared transformative theme",
+        "Revisit periodically rather than keeping on constant display, given its intensity"
+      ]
+    }
   },
   {
     id: "black-tourmaline",
@@ -130,7 +178,23 @@ const CRYSTALS = [
     affirmation: "I am grounded, protected, and unaffected by energy that is not mine.",
     uses: ["Keep by the front door or desk as an energetic boundary", "Carry when entering crowded or draining environments"],
     careNotes: "Very durable — safe for water, sun, and salt cleansing methods.",
-    pairsWith: ["hematite", "selenite", "onyx", "smoky-quartz"]
+    pairsWith: ["hematite", "selenite", "onyx", "smoky-quartz"],
+    deepDive: {
+      history: "Beyond its modern reputation as a protection stone, black tourmaline (schorl) has a specific, almost comic historical use: 18th-century Dutch glassblowers discovered that heating the stone made it attract ash, and began using it to clean their pipes, nicknaming it the Aschentrekker — \"ash puller.\" That practical property comes from pyroelectricity, the stone's ability to generate an electrical charge when heated, a trait tourmaline is still studied for today.",
+      narrative: "That ash-pulling, charge-generating history maps unusually well onto its modern metaphysical use — black tourmaline is almost always described in terms of pulling something unwanted away from a person or space, whether that's framed as negative energy, electromagnetic static, or simply tension. It's rarely credited with giving anything new; its job is subtraction, clearing a path rather than filling it. That's part of why it's recommended so consistently for people who feel generally overwhelmed rather than for one specific ritual or goal.",
+      propertyGroups: {
+        "Protective": ["Deflects negative or chaotic energy", "Traditionally associated with EMF shielding"],
+        "Emotional": ["Reduces general overwhelm", "Supports steady composure under stress"],
+        "Spiritual": ["Grounds scattered or anxious energy into the body"]
+      },
+      extendedUses: [
+        "Keep a piece by the front door as an energetic threshold",
+        "Carry into crowded, draining, or high-conflict environments",
+        "Place near electronics or a home office desk",
+        "Hold at the end of an energy-work or meditation session to ground back into the body",
+        "Bury small pieces around a garden's perimeter for a traditional protective boundary"
+      ]
+    }
   },
   {
     id: "blue-lace-agate",
@@ -152,7 +216,23 @@ const CRYSTALS = [
     affirmation: "I express myself calmly, clearly, and without fear.",
     uses: ["Wear as a necklace resting at the throat before public speaking", "Hold during difficult conversations to stay composed"],
     careNotes: "Durable; safe for water and moderate sun exposure.",
-    pairsWith: ["celestite", "angelite", "howlite", "lepidolite"]
+    pairsWith: ["celestite", "angelite", "howlite", "lepidolite"],
+    deepDive: {
+      history: "Agate as a mineral family has been documented since antiquity — the Greek philosopher Theophrastus is credited with naming it after the Achates River in Sicily, where it was found abundantly around the 4th century BCE. Blue lace agate specifically is a far more recent entry: the delicate pale-blue banded material most associated with the name was only discovered in significant quantity in Namibia in the 20th century, making it a modern variety carrying an ancient family name.",
+      narrative: "Its banding is where blue lace agate's calming reputation really comes from — the thin, parallel layers are often read almost literally as \"smoothed out,\" a visual echo of the emotional steadiness it's meant to encourage. It's considered one of the gentlest Throat-chakra stones specifically because its energy doesn't push for bold self-expression; it supports the quieter, more vulnerable act of simply saying what's true without flinching.",
+      propertyGroups: {
+        "Emotional": ["Soothes anxiety around speaking up", "Calms a racing nervous system"],
+        "Mental": ["Supports clear, unhurried thinking before speaking"],
+        "Spiritual": ["Opens gentle, honest self-expression"]
+      },
+      extendedUses: [
+        "Wear as a pendant resting at the throat before a difficult conversation",
+        "Keep on a desk during public speaking preparation",
+        "Hold during therapy sessions or vulnerable conversations",
+        "Place by the bed for children or anyone prone to nighttime anxiety",
+        "Pair with rose quartz when the conversation needing courage is also an emotional one"
+      ]
+    }
   },
   {
     id: "calcite",
@@ -174,7 +254,23 @@ const CRYSTALS = [
     affirmation: "I clear what is stagnant and amplify what serves my growth.",
     uses: ["Place a cluster in a room to keep energy circulating", "Pair with an intention-setting stone to magnify its effect"],
     careNotes: "Soft and reactive to acids — never cleanse with water or vinegar-based cleaners; keep away from prolonged sun to avoid fading colored varieties.",
-    pairsWith: ["citrine", "clear-quartz", "carnelian"]
+    pairsWith: ["citrine", "clear-quartz", "carnelian"],
+    deepDive: {
+      history: "Few minerals have had as practical a historical role as calcite. Clear \"Iceland spar\" calcite splits light into two separate rays, a property called birefringence, and Viking sailors are widely believed to have used slabs of it as a \"sunstone\" to locate the sun's position through cloud cover for navigation. Centuries later, that same optical property made calcite essential in targeting optics during the Second World War, before synthetic alternatives became available — a rare case of a crystal mattering as much to physics and military history as to decoration.",
+      narrative: "Calcite's metaphysical reputation as an amplifier draws directly from this light-splitting property — a single ray going in, two coming out. It's treated less as a stone with one fixed meaning and more as a kind of volume knob: whatever intention or energy it's paired with, calcite is said to make it more noticeable, more active, less stagnant. Different colors lean toward different specific effects (orange toward creativity and emotion, clear toward mental clarity), but the amplifying, clearing role stays consistent across the family.",
+      propertyGroups: {
+        "Spiritual": ["Amplifies intention and nearby energy", "Clears stagnant or stuck energy from a space"],
+        "Mental": ["Supports memory and mental clarity"],
+        "Emotional": ["Encourages emotional release, especially in orange varieties"]
+      },
+      extendedUses: [
+        "Place a cluster in a room that feels stagnant or heavy",
+        "Pair with any other crystal to amplify its specific intention",
+        "Keep on a desk during studying or detailed work",
+        "Use orange calcite specifically during creative blocks",
+        "Clear a space with calcite nearby after an argument or stressful event"
+      ]
+    }
   },
   {
     id: "carnelian",
@@ -196,7 +292,23 @@ const CRYSTALS = [
     affirmation: "I move forward with courage, creativity, and energy.",
     uses: ["Keep on a workspace to combat creative block or procrastination", "Carry before athletic or physical activities for a vitality boost"],
     careNotes: "Durable; safe for water and sunlight.",
-    pairsWith: ["citrine", "tigers-eye", "aventurine"]
+    pairsWith: ["citrine", "tigers-eye", "aventurine"],
+    deepDive: {
+      history: "Carnelian was treasured across the ancient world — Egyptians called it the \"Blood of Isis\" and carved it into protective amulets placed within mummy wrappings, and Romans favored it above nearly any other stone for signet rings specifically because hot wax doesn't stick to carnelian, making it ideal for sealing documents. It traveled extensively along Mesopotamian trade routes alongside lapis lazuli, and beads of it have been found in burial sites thousands of years old across multiple continents.",
+      narrative: "Carnelian's fire-toned color has always been tied to vitality and action rather than reflection — it's not a stone associated with quiet contemplation so much as momentum. Its sacral-chakra placement reflects this: it's considered a stone of creative and physical life-force, useful precisely in moments when thinking has gone on long enough and what's actually needed is the nerve to begin. That practical, get-moving energy is part of why it has stayed relevant across so many different eras and cultures.",
+      propertyGroups: {
+        "Emotional": ["Builds confidence", "Eases fear of starting something new"],
+        "Mental": ["Cuts through procrastination", "Sharpens focus on the task at hand"],
+        "Spiritual": ["Activates the Sacral chakra", "Channels creative and physical life-force"]
+      },
+      extendedUses: [
+        "Keep on a workspace during a stalled or overdue project",
+        "Carry before physical activity, sport, or performance",
+        "Hold for a moment before starting a task you've been avoiding",
+        "Wear during creative work that requires momentum over perfection",
+        "Pair with citrine for a combined confidence-and-abundance boost"
+      ]
+    }
   },
   {
     id: "celestite",
@@ -218,7 +330,23 @@ const CRYSTALS = [
     affirmation: "I rest in peace and open myself to gentle, higher guidance.",
     uses: ["Place on a nightstand to encourage peaceful sleep and vivid dreams", "Hold during meditation to quiet mental noise"],
     careNotes: "Soft and water-soluble — never cleanse with water. Keep out of direct sun to preserve color; handle gently.",
-    pairsWith: ["angelite", "selenite", "blue-lace-agate"]
+    pairsWith: ["angelite", "selenite", "blue-lace-agate"],
+    deepDive: {
+      history: "Celestite takes its name from the Latin caelestis, \"celestial,\" for its pale, sky-like color — a relatively modern mineralogical name first formally used after notable deposits were documented in 18th-century Sicily. Compared to stones used since antiquity, celestite entered both scientific and metaphysical vocabulary fairly late, with most of its spiritual reputation building specifically through 20th-century crystal-healing practice rather than older tradition.",
+      narrative: "Celestite's soft, glassy blue clusters are almost always described in terms of peace rather than power — it's rarely positioned as a stone that does something dramatic, and more often as one that simply lowers the noise. That gentleness is central to its reputation for angelic or dream-related communication: not loud, prophetic visions, but a quieter receptivity that's easiest to access in rest, right before sleep, or in unhurried meditation.",
+      propertyGroups: {
+        "Spiritual": ["Said to support angelic or higher guidance", "Encourages vivid dream recall"],
+        "Emotional": ["Deeply calming during anxious periods", "Softens overstimulation"],
+        "Mental": ["Quiets an overactive or racing mind"]
+      },
+      extendedUses: [
+        "Place on a nightstand to support peaceful sleep and dream recall",
+        "Hold during meditation when the goal is simply to quiet down",
+        "Keep in a shared living space to soften a tense or overstimulating environment",
+        "Use before journaling a dream immediately upon waking",
+        "Pair with angelite for a particularly gentle, sleep-focused duo"
+      ]
+    }
   },
   {
     id: "charoite",
@@ -240,7 +368,23 @@ const CRYSTALS = [
     affirmation: "I accept change with courage and trust the path unfolding.",
     uses: ["Hold during meditation when facing a major life decision", "Keep nearby during periods of upheaval to ease resistance"],
     careNotes: "Moderately durable but can be brittle along swirl patterns — avoid harsh impacts. Safe for brief water contact; limit sun exposure.",
-    pairsWith: ["moldavite", "labradorite", "amethyst"]
+    pairsWith: ["moldavite", "labradorite", "amethyst"],
+    deepDive: {
+      history: "Charoite has one of the shortest, most specific origin stories of any stone in this collection: it was discovered only in 1978, along the Chara River in Siberia, and remains found in commercial quantity in that single location to this day. Named directly after the river, it has no ancient mythology, no pharaohs or empires attached to it — just a late-Soviet-era mineralogical discovery that quickly became prized for its unmistakable swirling purple pattern.",
+      narrative: "With no centuries of accumulated folklore to draw on, charoite's metaphysical reputation has formed almost entirely around its visual intensity — the swirling, almost turbulent pattern reads directly as a stone of transformation in motion rather than stillness. It's reached for less during calm reflection and more during the messier middle of a real change: a move, a breakup, a career shift, the kind of transition where resistance and acceptance are still actively fighting it out.",
+      propertyGroups: {
+        "Emotional": ["Eases fear and resistance to change", "Supports acceptance during upheaval"],
+        "Spiritual": ["Encourages courage during major transformation", "Opens the Crown and Third Eye together"],
+        "Mental": ["Helps settle a mind caught between two decisions"]
+      },
+      extendedUses: [
+        "Hold during meditation when facing a decision you keep avoiding",
+        "Keep nearby throughout a major move, breakup, or career change",
+        "Use during a period when change feels like it's happening to you rather than by you",
+        "Pair with labradorite for support through an especially disorienting transition",
+        "Journal alongside charoite meditation to track resistance as it softens"
+      ]
+    }
   },
   {
     id: "citrine",
@@ -262,7 +406,23 @@ const CRYSTALS = [
     affirmation: "I am worthy of abundance, and I welcome success with joy.",
     uses: ["Keep in a cash drawer, wallet, or workspace to invite prosperity", "Hold while visualizing a goal to support manifestation practice"],
     careNotes: "Durable, but natural citrine can fade with prolonged strong sunlight. Safe for water cleansing.",
-    pairsWith: ["clear-quartz", "aventurine", "tigers-eye", "carnelian"]
+    pairsWith: ["clear-quartz", "aventurine", "tigers-eye", "carnelian"],
+    deepDive: {
+      history: "Citrine takes its name from the French citron, \"lemon,\" and has been used in jewelry since Greek and Roman antiquity, though genuinely natural citrine is quite rare — most commercial \"citrine\" throughout history and today is heat-treated amethyst, a transformation traders have exploited for centuries. In the Scottish Highlands, smoky-yellow quartz known as cairngorm (closely related to citrine) was carved into the handles of ceremonial daggers and set into formal Highland dress, giving it a distinctly regional, aristocratic association.",
+      narrative: "Citrine's nickname, the \"merchant's stone,\" comes from an old and fairly literal practice: shopkeepers reportedly kept a piece in the cash register or till, believing it would keep money circulating rather than stagnating. That same logic carries through its modern use — citrine isn't typically framed as a stone that creates wealth from nothing, but one that keeps abundance moving, encouraging generosity and reinvestment rather than hoarding or scarcity thinking.",
+      propertyGroups: {
+        "Spiritual": ["Encourages generosity alongside abundance", "Keeps energy and opportunity in motion"],
+        "Emotional": ["Lifts low mood", "Builds quiet, steady confidence"],
+        "Mental": ["Supports a goal-oriented, optimistic mindset"]
+      },
+      extendedUses: [
+        "Keep in a cash drawer, wallet, or workspace to invite prosperity",
+        "Hold while visualizing a specific financial or career goal",
+        "Place near the entrance of a business",
+        "Pair with green aventurine for luck plus abundance together",
+        "Use during a goal-setting ritual at the start of a new year or season"
+      ]
+    }
   },
   {
     id: "clear-quartz",
@@ -284,7 +444,23 @@ const CRYSTALS = [
     affirmation: "My intentions are clear, amplified, and aligned with my highest good.",
     uses: ["Program with a specific intention by holding and visualizing your goal", "Place near other crystals to cleanse and recharge them", "Use in a crystal grid as the central amplifying stone"],
     careNotes: "Very durable — safe for water, sun, salt, and virtually any cleansing method.",
-    pairsWith: ["amethyst", "rose-quartz", "citrine", "selenite", "black-tourmaline"]
+    pairsWith: ["amethyst", "rose-quartz", "citrine", "selenite", "black-tourmaline"],
+    deepDive: {
+      history: "Clear quartz may be the single most historically significant crystal on Earth. Ancient Greeks believed it was water frozen so permanently by the gods that it could never melt — the word \"crystal\" itself comes from the Greek krystallos, meaning ice. Cultures across Japan, Australia, Mesoamerica, and medieval Europe independently carved it into scrying spheres for divination, and it remains one of the earliest materials humans shaped into seals, lenses, and ornamental objects.",
+      narrative: "Clear quartz's role as the \"master healer\" comes from a property that's almost definitional rather than poetic: it's neutral. Unlike stones tied to one color, chakra, or specific emotional theme, clear quartz is considered a blank, highly responsive amplifier — it takes on and intensifies whatever intention, energy, or combination of stones it's paired with, which is exactly why it shows up so often as a supporting player in nearly every other crystal's pairing list rather than carrying one narrow identity of its own.",
+      propertyGroups: {
+        "Spiritual": ["Amplifies any intention set upon it", "Connects to all chakras at once"],
+        "Mental": ["Clarifies scattered or cluttered thinking"],
+        "Emotional": ["Supports whatever emotional work is already underway"]
+      },
+      extendedUses: [
+        "Program with a specific intention by holding and clearly visualizing your goal",
+        "Place near other crystals to cleanse and recharge them",
+        "Use as the central amplifying stone in a crystal grid",
+        "Carry when you want to intensify the effect of another stone you're working with",
+        "Keep one large piece as an all-purpose, go-to stone for any situation"
+      ]
+    }
   },
   {
     id: "fluorite",
@@ -306,7 +482,23 @@ const CRYSTALS = [
     affirmation: "My mind is clear, focused, and free of unnecessary noise.",
     uses: ["Keep on a desk during study or detailed work", "Hold before decision-making to cut through confusion"],
     careNotes: "Soft and brittle — avoid drops and impacts. Never cleanse with water (can dissolve over long exposure) or harsh sunlight.",
-    pairsWith: ["amethyst", "clear-quartz", "labradorite"]
+    pairsWith: ["amethyst", "clear-quartz", "labradorite"],
+    deepDive: {
+      history: "Fluorite's name comes from the Latin fluere, \"to flow,\" because of its long industrial use as a flux — a substance added to smelting ore to lower its melting point and help impurities separate out, a role it still plays in steel and aluminum production today. Long before that industrial use was understood, the Romans prized carved fluorite vessels known as murrine, reportedly paying sums that rivaled or exceeded the price of gold for a single cup. China has carved fluorite into decorative objects for centuries as well, valuing its unusual range of natural color.",
+      narrative: "Fluorite's banded, multi-colored crystal structure maps neatly onto its reputation as a \"genius stone\" — rather than one fixed property, different zones of color are often read as different kinds of mental support working simultaneously: focus, memory, intuition, and calm, layered together in a single piece. It's less associated with emotional healing than with cognitive performance, making it a favorite for students, researchers, and anyone whose work depends on sustained, organized thought.",
+      propertyGroups: {
+        "Mental": ["Sharpens focus and concentration", "Organizes scattered thoughts", "Filters out mental \"noise\""],
+        "Spiritual": ["Supports clear intuitive insight without overwhelm"],
+        "Protective": ["Said to buffer against absorbing others' chaotic energy"]
+      },
+      extendedUses: [
+        "Keep on a desk during study sessions or detailed, technical work",
+        "Hold before a decision that requires cutting through conflicting information",
+        "Place near a computer or workspace prone to distraction",
+        "Use during meditation focused on organizing a complex problem",
+        "Pair with amethyst when focus work also needs to feel calm, not just sharp"
+      ]
+    }
   },
   {
     id: "hematite",
