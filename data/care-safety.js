@@ -35,7 +35,14 @@ const CARE_SAFETY = {
   "tanzanite":         { water: "caution", sun: "no" },
   "tigers-eye":        { water: "ok",      sun: "ok" },
   "topaz":             { water: "ok",      sun: "ok" },
-  "turquoise":         { water: "no",      sun: "caution" }
+  "turquoise":         { water: "no",      sun: "caution" },
+  "smoky-quartz":      { water: "ok",      sun: "ok" },
+  "obsidian":          { water: "caution", sun: "ok" },
+  "pyrite":            { water: "no",      sun: "ok" },
+  "jade":              { water: "ok",      sun: "caution" },
+  "garnet":            { water: "ok",      sun: "caution" },
+  "sodalite":          { water: "ok",      sun: "caution" },
+  "amazonite":         { water: "caution", sun: "caution" }
 };
 
 if (typeof module !== "undefined" && module.exports) module.exports = CARE_SAFETY;
