@@ -42,7 +42,16 @@ const CARE_SAFETY = {
   "jade":              { water: "ok",      sun: "caution" },
   "garnet":            { water: "ok",      sun: "caution" },
   "sodalite":          { water: "ok",      sun: "caution" },
-  "amazonite":         { water: "caution", sun: "caution" }
+  "amazonite":         { water: "caution", sun: "caution" },
+  "aquamarine":        { water: "ok",      sun: "caution" },
+  "emerald":           { water: "caution", sun: "caution" },
+  "ruby":              { water: "ok",      sun: "ok" },
+  "sapphire":          { water: "ok",      sun: "ok" },
+  "opal":              { water: "no",      sun: "no" },
+  "larimar":           { water: "caution", sun: "caution" },
+  "sunstone":          { water: "ok",      sun: "ok" },
+  "apophyllite":       { water: "caution", sun: "caution" },
+  "rutilated-quartz":  { water: "ok",      sun: "ok" }
 };
 
 if (typeof module !== "undefined" && module.exports) module.exports = CARE_SAFETY;

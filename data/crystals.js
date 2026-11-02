@@ -1566,6 +1566,339 @@ const CRYSTALS = [
         "Pair with blue lace agate for an especially gentle, throat-focused combination"
       ]
     }
+  },
+  {
+    id: "aquamarine",
+    name: "Aquamarine",
+    aliases: [],
+    colors: ["Blue"],
+    mineralClass: "Beryl (silicate)",
+    hardness: 7.75,
+    origin: ["Brazil", "Madagascar", "Nigeria", "Pakistan"],
+    chakra: ["Throat"],
+    zodiac: ["Pisces", "Aries", "Gemini"],
+    element: ["Water"],
+    planet: ["Neptune", "Moon"],
+    birthMonth: ["March"],
+    formation: "A blue-to-blue-green variety of beryl, colored by trace iron, typically forming in long hexagonal prisms.",
+    properties: ["Calm", "Clear communication", "Courage", "Emotional balance"],
+    meaning: "Named for its resemblance to seawater, aquamarine has long been considered a sailor's talisman, carried for safe passage and calm waters. It's used today to soothe anxiety and support honest, composed communication, especially under pressure.",
+    affirmation: "I move through uncertainty with calm clarity and an open voice.",
+    uses: ["Carry while traveling, especially over water, for a sense of safety", "Hold before a conversation that requires calm honesty", "Wear during public speaking to ease nervousness"],
+    careNotes: "Durable; safe for water. Avoid prolonged exposure to strong sunlight, which can fade its color over time.",
+    pairsWith: ["blue-lace-agate", "celestite", "moonstone"],
+    deepDive: {
+      history: "Aquamarine's name comes directly from the Latin aqua marina, \"water of the sea,\" and sailors across multiple seafaring cultures carried it as a protective talisman believed to calm rough waters and guarantee safe passage. Ancient Roman fishermen reportedly carried aquamarine for good fortune at sea, and medieval sailors continued the tradition for centuries, often engraving the stone with Neptune's image for extra protection.",
+      narrative: "Aquamarine's association with the sea isn't just about its color — it carries forward into a reputation for the specific kind of courage needed to face something vast and uncertain, the way early sailors faced the open ocean. It's less a stone for dramatic transformation and more one for steady composure: staying calm not because nothing is happening, but because you trust yourself to handle what's ahead.",
+      propertyGroups: {
+        "Emotional": ["Calms anxiety and nervousness", "Supports steady composure under pressure"],
+        "Spiritual": ["Traditionally protective during travel, especially over water"],
+        "Mental": ["Clears mental fog before an important conversation"]
+      },
+      extendedUses: [
+        "Carry while traveling, especially over water, for a sense of protection",
+        "Hold before a conversation that requires calm honesty",
+        "Wear during public speaking or performance to ease nerves",
+        "Keep nearby during a period of uncertainty that requires quiet courage",
+        "Pair with blue lace agate for a doubled calming, throat-focused combination"
+      ]
+    }
+  },
+  {
+    id: "emerald",
+    name: "Emerald",
+    aliases: [],
+    colors: ["Green"],
+    mineralClass: "Beryl (silicate)",
+    hardness: 7.75,
+    origin: ["Colombia", "Zambia", "Brazil", "Afghanistan"],
+    chakra: ["Heart"],
+    zodiac: ["Taurus", "Gemini", "Cancer"],
+    element: ["Earth", "Water"],
+    planet: ["Venus", "Mercury"],
+    birthMonth: ["May"],
+    formation: "A vivid green variety of beryl, colored by trace chromium and/or vanadium; nearly all natural emeralds contain visible internal inclusions, poetically called \"jardin\" (garden) by gemologists.",
+    properties: ["Unconditional love", "Loyalty", "Truth", "Abundance"],
+    meaning: "Emerald has symbolized rebirth and fertility since antiquity, prized by Cleopatra and worn across royal courts for millennia. In metaphysical tradition it's considered a stone of deep, loyal love — romantic and otherwise — paired with a reputation for revealing truth and exposing deception in anyone who wears it dishonestly.",
+    affirmation: "I love loyally, speak truthfully, and welcome abundance without losing myself.",
+    uses: ["Wear to deepen trust and loyalty in an existing relationship", "Hold during meditation focused on unconditional love", "Keep nearby during negotiations where honesty matters"],
+    careNotes: "Moderately durable but typically included with internal fractures — avoid ultrasonic cleaners and sudden temperature changes. Many emeralds are oil-treated; avoid harsh solvents.",
+    pairsWith: ["rose-quartz", "jade", "aventurine"],
+    deepDive: {
+      history: "Emerald mining dates back at least 4,000 years to ancient Egypt, where Cleopatra was famously devoted to the stone, reportedly claiming entire mines as her personal property. Incan and Aztec civilizations independently prized emerald even before Spanish conquest, and the vast Colombian deposits Europeans encountered in the 16th century were already being actively mined and revered — one of several cases where a gemstone's \"discovery\" by Europe was really a forced redirection of existing supply.",
+      narrative: "Emerald's old reputation as a detector of truth — said to grow cloudy or crack when worn by someone being deceitful or disloyal — feeds directly into its modern identity as a stone of loyal, unconditional love rather than passionate, fleeting romance. It's treated as a stone for the harder, more sustained parts of love: honesty during conflict, commitment over time, and loving someone's full reality rather than an idealized version of them.",
+      propertyGroups: {
+        "Emotional": ["Deepens loyalty and trust", "Supports unconditional, sustained love"],
+        "Spiritual": ["Said to reveal dishonesty or deception"],
+        "Mental": ["Encourages truthful self-expression"]
+      },
+      extendedUses: [
+        "Wear to deepen trust and loyalty in an existing relationship",
+        "Hold during meditation focused on unconditional love",
+        "Keep nearby during negotiations or conversations where honesty matters",
+        "Gift to mark a committed relationship or long partnership",
+        "Pair with rose quartz when both loyalty and self-love need attention"
+      ]
+    }
+  },
+  {
+    id: "ruby",
+    name: "Ruby",
+    aliases: [],
+    colors: ["Red"],
+    mineralClass: "Corundum (aluminum oxide)",
+    hardness: 9,
+    origin: ["Myanmar", "Thailand", "Mozambique", "Sri Lanka"],
+    chakra: ["Root", "Heart"],
+    zodiac: ["Leo", "Cancer", "Sagittarius"],
+    element: ["Fire"],
+    planet: ["Sun", "Mars"],
+    birthMonth: ["July"],
+    formation: "The red variety of corundum, colored by trace chromium; among the hardest natural gemstones, second only to diamond.",
+    properties: ["Passion", "Vitality", "Courage", "Protection"],
+    meaning: "Ruby has been called the \"king of gemstones\" across Sanskrit texts going back over 2,000 years, long associated with life-force, passion, and protection in battle. It's considered a stone of bold, embodied vitality — less about calm reflection and more about living fully, courageously, and with conviction.",
+    affirmation: "I live boldly, love passionately, and protect what matters to me.",
+    uses: ["Wear during periods requiring courage or bold action", "Hold before a commitment that requires full-hearted conviction", "Keep nearby when recovering physical or emotional vitality"],
+    careNotes: "Extremely durable (second only to diamond); safe for water, sun, and everyday wear.",
+    pairsWith: ["garnet", "carnelian", "citrine"],
+    deepDive: {
+      history: "Ancient Sanskrit texts called ruby ratnaraj, \"king of precious stones,\" and Burmese warriors reportedly embedded rubies into their skin before battle, believing the stone made them invincible. Medieval European royalty prized ruby as a symbol of passion and power, and it has remained one of the most consistently valuable gemstones in history — a flawless ruby can, carat for carat, outvalue even a comparable diamond.",
+      narrative: "Ruby's deep red has never been subtle, and neither has its metaphysical reputation — it's consistently described in terms of full-bodied, undiluted life-force rather than gentleness. Where many heart-centered stones emphasize compassion or healing, ruby leans toward passion and vitality, treated as fuel for living boldly rather than a balm for difficulty. It's a stone associated with conviction: loving, working, and fighting for something without holding back.",
+      propertyGroups: {
+        "Emotional": ["Ignites passion and enthusiasm", "Builds raw courage"],
+        "Spiritual": ["Activates vital life-force energy"],
+        "Protective": ["Traditionally worn into conflict for protection and strength"]
+      },
+      extendedUses: [
+        "Wear during periods requiring courage or bold action",
+        "Hold before a commitment that requires full-hearted conviction",
+        "Keep nearby when recovering physical or emotional vitality",
+        "Carry into a competitive or high-stakes situation",
+        "Pair with garnet for a combined passion-and-endurance stack"
+      ]
+    }
+  },
+  {
+    id: "sapphire",
+    name: "Sapphire",
+    aliases: [],
+    colors: ["Blue"],
+    mineralClass: "Corundum (aluminum oxide)",
+    hardness: 9,
+    origin: ["Sri Lanka", "Myanmar", "Madagascar", "Australia"],
+    chakra: ["Throat", "Third Eye"],
+    zodiac: ["Virgo", "Libra", "Sagittarius"],
+    element: ["Air", "Water"],
+    planet: ["Saturn", "Jupiter"],
+    birthMonth: ["September"],
+    formation: "The blue variety of corundum (the same mineral as ruby), colored by trace iron and titanium; also occurs in nearly every other color except red, in which case it's classified as ruby.",
+    properties: ["Wisdom", "Focus", "Truth", "Loyalty"],
+    meaning: "Sapphire has adorned royal crowns and clergy rings for centuries, long believed to protect its wearer from harm and envy while sharpening wisdom and discernment. It's traditionally associated with loyalty and commitment, famously chosen for royal engagement rings as a symbol of enduring faithfulness.",
+    affirmation: "I think clearly, act wisely, and stay true to my commitments.",
+    uses: ["Wear during decisions that require wisdom over impulse", "Hold during study or focused mental work", "Keep nearby when renewing a commitment or promise"],
+    careNotes: "Extremely durable (second only to diamond); safe for water, sun, and everyday wear.",
+    pairsWith: ["lapis-lazuli", "sodalite", "labradorite"],
+    deepDive: {
+      history: "Sapphire has crowned royalty and clergy for well over a thousand years — medieval clergy wore sapphire rings as a symbol of heaven, and European royal families have used sapphires in coronation regalia and engagement jewelry for centuries, most famously the sapphire engagement-ring tradition carried into the British royal family. Ancient Persians reportedly believed the entire sky was reflected light off a giant sapphire the Earth rested upon.",
+      narrative: "Sapphire's long association with clear, elevated authority — kings, clergy, judges — feeds directly into its modern reputation as a stone of discernment and wise judgment rather than raw intuition. It's treated as a cooler, more disciplined cousin to other Third Eye stones: less about mystical insight and more about the kind of clear-headed wisdom that holds up under scrutiny and responsibility.",
+      propertyGroups: {
+        "Mental": ["Sharpens focus and discernment", "Supports wise, considered decisions"],
+        "Spiritual": ["Connects to higher wisdom and truth"],
+        "Emotional": ["Strengthens loyalty and commitment"]
+      },
+      extendedUses: [
+        "Wear during decisions that require wisdom over impulse",
+        "Hold during study or focused mental work",
+        "Keep nearby when renewing a commitment or promise",
+        "Use before a judgment call you need to get right, not just fast",
+        "Pair with lapis lazuli for a combined wisdom-and-truth focus"
+      ]
+    }
+  },
+  {
+    id: "opal",
+    name: "Opal",
+    aliases: [],
+    colors: ["White", "Multicolor"],
+    mineralClass: "Hydrated silica (mineraloid)",
+    hardness: 5.75,
+    origin: ["Australia", "Ethiopia", "Mexico"],
+    chakra: ["Crown", "Third Eye"],
+    zodiac: ["Libra", "Scorpio", "Pisces"],
+    element: ["Water"],
+    planet: ["Venus", "Neptune"],
+    birthMonth: ["October"],
+    formation: "A hydrated form of silica, not technically a crystal since it lacks a regular internal structure; its famous \"play of color\" comes from microscopic spheres of silica diffracting light.",
+    properties: ["Creativity", "Emotional amplification", "Inspiration", "Transformation"],
+    meaning: "Opal's shifting rainbow flash has made it a stone of inspiration and creativity across cultures, from ancient Rome (where it symbolized hope and purity) to Aboriginal Australian creation stories tied to the Dreamtime. It's considered an emotionally amplifying stone — intensifying whatever feeling or intention is already present, for better or worse.",
+    affirmation: "I let my true colors show and trust what I create with them.",
+    uses: ["Wear during creative projects to spark inspiration", "Hold during meditation focused on self-expression", "Use intentionally rather than passively, given its amplifying nature"],
+    careNotes: "Contains water within its structure and can crack if it dries out or faces sudden temperature change — avoid prolonged sun, heat, and ultrasonic cleaners. Store with slight humidity.",
+    pairsWith: ["moonstone", "labradorite", "rose-quartz"],
+    deepDive: {
+      history: "Opal has carried a notably divided reputation across history — ancient Romans considered it a stone of hope and good fortune, second only to emerald in value, while a wave of 19th-century superstition (partly traced to a Sir Walter Scott novel in which an opal-wearing character meets a bad end) left opal unfairly branded as unlucky for unmarried wearers in Victorian Europe. Aboriginal Australian traditions, from the land that still produces most of the world's fine opal, tell a very different story: that the Creator descended on a rainbow, and the stone marks where its colors touched the earth.",
+      narrative: "Opal's internal structure — microscopic silica spheres bending light into shifting color — means no two opals ever flash quite the same way, and that genuine uniqueness underpins its reputation as a stone of individual creativity and self-expression. Its reputation as an amplifier is taken seriously in metaphysical practice: it's generally recommended for people already working on something constructive, since it's said to intensify whatever energy or mood is already present rather than introduce a new one.",
+      propertyGroups: {
+        "Spiritual": ["Amplifies whatever intention or mood is present", "Connects to inspiration and imagination"],
+        "Emotional": ["Intensifies existing emotions — approach with clear intention"],
+        "Mental": ["Sparks creative thinking and self-expression"]
+      },
+      extendedUses: [
+        "Wear during creative projects to spark inspiration",
+        "Hold during meditation focused on self-expression",
+        "Use with clear, positive intention rather than passively, given its amplifying nature",
+        "Keep nearby during artistic or imaginative work specifically",
+        "Pair with moonstone for a dreamy, intuition-focused combination"
+      ]
+    }
+  },
+  {
+    id: "larimar",
+    name: "Larimar",
+    aliases: ["Dominican Turquoise", "Blue Pectolite"],
+    colors: ["Blue"],
+    mineralClass: "Pectolite (silicate)",
+    hardness: 5,
+    origin: ["Dominican Republic (only known source)"],
+    chakra: ["Throat", "Heart"],
+    zodiac: ["Pisces", "Taurus", "Leo"],
+    element: ["Water", "Air"],
+    planet: ["Neptune"],
+    birthMonth: [],
+    formation: "A rare blue variety of pectolite, found in commercial quantity only in the Dominican Republic, colored by trace copper; its white-and-blue pattern is often compared to Caribbean sea foam.",
+    properties: ["Calm", "Clarity", "Emotional healing", "Peaceful communication"],
+    meaning: "Named for discoverer Miguel Méndez's daughter Larissa combined with mar (Spanish for \"sea\"), larimar wasn't formally identified until 1974 despite having been noticed by locals for generations. Its ocean-blue swirls are closely associated with the calm, healing presence of the sea — used to soothe emotional turbulence and support peaceful, honest communication.",
+    affirmation: "I move through my emotions like the tide — present, flowing, and at peace.",
+    uses: ["Hold during meditation near water, real or imagined", "Wear during a conversation that needs calm rather than conflict", "Keep nearby during emotional healing after a stressful period"],
+    careNotes: "Relatively soft and can be sensitive to heat and sudden impact — handle gently, avoid prolonged sun, and store away from harder stones.",
+    pairsWith: ["blue-lace-agate", "amazonite", "aquamarine"],
+    deepDive: {
+      history: "Larimar has one of the most recent discovery stories of any widely known stone: although Dominican locals had noticed the blue mineral for generations, it wasn't formally investigated until 1974, when Miguel Méndez and Peace Corps volunteer Norman Rilling traced loose stones found on a beach back to their volcanic source inland. Méndez named the stone by combining his daughter Larissa's name with mar, the Spanish word for sea — and to this day, the Dominican Republic remains the only commercially significant source on Earth.",
+      narrative: "Larimar's white-and-blue patterning is almost universally described in oceanic terms — sea foam, shallow water, waves — and that imagery carries directly into its metaphysical reputation as a stone of calm, healing communication. It's considered especially suited to emotional conversations that have gotten too heated, treated as a stone that cools things down without shutting them down, encouraging honesty delivered gently rather than silence.",
+      propertyGroups: {
+        "Emotional": ["Soothes emotional turbulence", "Encourages a calm, grounded response to stress"],
+        "Spiritual": ["Connects to the healing, cleansing presence of water"],
+        "Mental": ["Supports peaceful, clear communication"]
+      },
+      extendedUses: [
+        "Hold during meditation near water, real or imagined",
+        "Wear during a conversation that needs calm rather than conflict",
+        "Keep nearby during emotional healing after a stressful period",
+        "Use during a cooling-down period after an argument, before resuming the conversation",
+        "Pair with blue lace agate for a doubly gentle, calming combination"
+      ]
+    }
+  },
+  {
+    id: "sunstone",
+    name: "Sunstone",
+    aliases: [],
+    colors: ["Orange", "Gold"],
+    mineralClass: "Feldspar (oligoclase or labradorite)",
+    hardness: 6.25,
+    origin: ["United States (Oregon)", "Norway", "India", "Canada"],
+    chakra: ["Sacral", "Solar Plexus"],
+    zodiac: ["Leo", "Libra"],
+    element: ["Fire"],
+    planet: ["Sun"],
+    birthMonth: [],
+    formation: "A feldspar mineral whose sparkly orange glow (aventurescence) comes from light reflecting off tiny copper or hematite platelets embedded within the crystal.",
+    properties: ["Joy", "Vitality", "Confidence", "Independence"],
+    meaning: "Native American tribes of the American Plains and Pacific Northwest, where Oregon sunstone is found, used the stone in ceremony and jewelry long before its 19th-century mineralogical description. Sharing a feldspar family with moonstone and labradorite but carrying the opposite energy, sunstone is consistently associated with warmth, joy, and personal independence rather than introspection.",
+    affirmation: "I shine openly, act on my own authority, and welcome joy without apology.",
+    uses: ["Wear during periods that call for confidence and visibility", "Hold during a morning routine to set a joyful tone for the day", "Keep nearby when reclaiming independence after relying on others"],
+    careNotes: "Moderately durable; safe for water and sunlight, fittingly enough.",
+    pairsWith: ["citrine", "carnelian", "moonstone"],
+    deepDive: {
+      history: "Oregon sunstone, among the finest in the world, was used by Native American tribes of the region in ceremony and personal adornment long before Western mineralogists formally described the stone in the 19th century. It shares its feldspar family with both moonstone and labradorite, but fine Oregon material forms with genuine copper inclusions, giving it a sparkle entirely its own among feldspars.",
+      narrative: "Sunstone is often introduced specifically as moonstone's opposite within the same mineral family — where moonstone turns attention inward toward cycles and intuition, sunstone is almost always described in terms of outward confidence, independence, and joy. It's recommended less for quiet reflection and more for stepping into visibility: leading, performing, or simply taking up space without apologizing for it.",
+      propertyGroups: {
+        "Emotional": ["Lifts mood and restores joy", "Builds confidence and visibility"],
+        "Spiritual": ["Encourages independence and personal authority"],
+        "Mental": ["Supports a leadership mindset"]
+      },
+      extendedUses: [
+        "Wear during periods that call for confidence and visibility",
+        "Hold during a morning routine to set a joyful tone for the day",
+        "Keep nearby when reclaiming independence after relying on others",
+        "Carry before public speaking, performing, or leading a group",
+        "Pair with moonstone for a balanced, sun-and-moon combination"
+      ]
+    }
+  },
+  {
+    id: "apophyllite",
+    name: "Apophyllite",
+    aliases: [],
+    colors: ["Clear/White", "Green"],
+    mineralClass: "Phyllosilicate",
+    hardness: 4.75,
+    origin: ["India (Deccan Traps)", "Brazil", "United States"],
+    chakra: ["Crown", "Third Eye"],
+    zodiac: ["Gemini", "Libra"],
+    element: ["Air"],
+    planet: ["Moon"],
+    birthMonth: [],
+    formation: "Forms in distinctive square or pyramidal crystals, commonly found alongside stilbite in the volcanic basalt cavities of India's Deccan Traps; named from the Greek \"apo\" (away from) and \"phyllon\" (leaf), because it tends to flake apart when heated.",
+    properties: ["Clarity", "Spiritual connection", "Present-moment awareness", "Intuition"],
+    meaning: "Apophyllite's high water content and glassy, almost transparent structure have given it a reputation as one of the clearest, most \"high-vibration\" stones used in meditation — often described less in terms of specific effects and more as a direct conduit to stillness and spiritual presence.",
+    affirmation: "I am fully here, clear and present, in this exact moment.",
+    uses: ["Hold during meditation to deepen stillness and presence", "Place a pyramidal cluster in a meditation space", "Use to support a clear, uncluttered meditative state"],
+    careNotes: "Soft and can flake if heated or dropped — handle gently, avoid prolonged sun and hot water.",
+    pairsWith: ["stilbite", "selenite", "clear-quartz"],
+    deepDive: {
+      history: "Apophyllite takes its name from the Greek apo (away from) and phyllon (leaf), given by mineralogists who noticed the stone tends to flake apart in thin, leaf-like layers when heated. It most commonly forms in the volcanic basalt cavities of India's Deccan Traps, often growing directly alongside stilbite — the two are frequently sold together as a naturally paired specimen, their soft white and pale green clusters contrasting with stilbite's peachy bow-ties.",
+      narrative: "Apophyllite's near-transparency and the way it catches light have earned it a reputation among meditators as an unusually \"quiet\" stone — rather than being described through a long list of distinct properties, it's most often talked about in terms of what it clears away: mental clutter, distraction, and the small resistances that keep a meditation practice from settling. It's treated less as a stone that adds something new and more as one that gets out of the way.",
+      propertyGroups: {
+        "Spiritual": ["Deepens meditative stillness", "Connects to present-moment awareness"],
+        "Mental": ["Clears mental clutter and distraction"],
+        "Emotional": ["Supports a calm, uncomplicated state of mind"]
+      },
+      extendedUses: [
+        "Hold during meditation to deepen stillness and presence",
+        "Place a pyramidal cluster in a dedicated meditation space",
+        "Use before a practice that's felt cluttered or hard to settle into lately",
+        "Keep alongside stilbite, its natural mineral companion",
+        "Pair with selenite for an especially clear, high-vibration combination"
+      ]
+    }
+  },
+  {
+    id: "rutilated-quartz",
+    name: "Rutilated Quartz",
+    aliases: ["Venus Hair Stone", "Angel Hair Quartz"],
+    colors: ["Clear/White", "Gold", "Brown"],
+    mineralClass: "Quartz (silicate) with rutile (titanium dioxide) inclusions",
+    hardness: 7,
+    origin: ["Brazil", "Madagascar", "United States"],
+    chakra: ["Solar Plexus", "Crown"],
+    zodiac: ["Gemini", "Libra"],
+    element: ["Air", "Fire"],
+    planet: ["Mercury"],
+    birthMonth: [],
+    formation: "Clear quartz containing needle-like golden or reddish inclusions of rutile (titanium dioxide), formed as the rutile crystallized first and was later enclosed by growing quartz.",
+    properties: ["Amplification", "Manifestation", "Mental clarity", "Energy flow"],
+    meaning: "Nicknamed \"Venus hair stone\" for its fine golden threads, rutilated quartz combines clear quartz's amplifying reputation with rutile's association with energetic flow and manifestation. It's considered a particularly active, accelerating stone — less about calm clarity and more about speeding up whatever process, idea, or intention is already in motion.",
+    affirmation: "My ideas move freely and reach exactly where they need to go.",
+    uses: ["Hold while clarifying a goal you want to accelerate", "Keep on a desk during a project that's lost momentum", "Use during manifestation or vision-board work"],
+    careNotes: "Durable like other quartz; safe for water and sunlight.",
+    pairsWith: ["clear-quartz", "citrine", "tigers-eye"],
+    deepDive: {
+      history: "Rutilated quartz has gone by many evocative names across different eras and markets — \"Venus hair stone\" and \"angel hair quartz\" among them — each describing the same fine, golden needle-like inclusions of rutile suspended within clear quartz. Unlike most stones defined by a single mineral, rutilated quartz is really two minerals captured together in formation: rutile crystallizing first, with quartz growing around and enclosing it afterward, a geological sequence you can see frozen in place within the stone.",
+      narrative: "Those golden threads are almost always described as channels or pathways rather than simple decoration, and that imagery shapes rutilated quartz's reputation directly — it's considered less a stone of stillness and more one of movement, treated as something that speeds energy, ideas, or intentions along rather than holding them in place. It's frequently reached for specifically when a goal or project has stalled and needs a push rather than more patience.",
+      propertyGroups: {
+        "Mental": ["Accelerates mental clarity and decision-making", "Breaks through stalled thinking"],
+        "Spiritual": ["Amplifies manifestation and intention"],
+        "Emotional": ["Energizes a flagging sense of motivation"]
+      },
+      extendedUses: [
+        "Hold while clarifying a goal you want to accelerate",
+        "Keep on a desk during a project that's lost momentum",
+        "Use during manifestation or vision-board work",
+        "Carry when you need quick mental clarity rather than slow reflection",
+        "Pair with citrine for a combined acceleration-and-abundance focus"
+      ]
+    }
   }
 ];
 
