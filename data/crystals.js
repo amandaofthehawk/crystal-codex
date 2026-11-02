@@ -1760,6 +1760,7 @@ const CRYSTALS = [
   {
     id: "larimar",
     name: "Larimar",
+    photo: { file: "assets/photos/larimar.webp" },
     aliases: ["Dominican Turquoise", "Blue Pectolite"],
     colors: ["Blue"],
     mineralClass: "Pectolite (silicate)",
@@ -1797,6 +1798,7 @@ const CRYSTALS = [
   {
     id: "sunstone",
     name: "Sunstone",
+    photo: { file: "assets/photos/sunstone.webp" },
     aliases: [],
     colors: ["Orange", "Gold"],
     mineralClass: "Feldspar (oligoclase or labradorite)",
@@ -1834,6 +1836,7 @@ const CRYSTALS = [
   {
     id: "apophyllite",
     name: "Apophyllite",
+    photo: { file: "assets/photos/apophyllite.webp" },
     aliases: [],
     colors: ["Clear/White", "Green"],
     mineralClass: "Phyllosilicate",
@@ -1871,6 +1874,7 @@ const CRYSTALS = [
   {
     id: "rutilated-quartz",
     name: "Rutilated Quartz",
+    photo: { file: "assets/photos/rutilated-quartz.webp" },
     aliases: ["Venus Hair Stone", "Angel Hair Quartz"],
     colors: ["Clear/White", "Gold", "Brown"],
     mineralClass: "Quartz (silicate) with rutile (titanium dioxide) inclusions",
