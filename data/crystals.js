@@ -1570,6 +1570,7 @@ const CRYSTALS = [
   {
     id: "aquamarine",
     name: "Aquamarine",
+    photo: { file: "assets/photos/aquamarine.webp" },
     aliases: [],
     colors: ["Blue"],
     mineralClass: "Beryl (silicate)",
@@ -1607,6 +1608,7 @@ const CRYSTALS = [
   {
     id: "emerald",
     name: "Emerald",
+    photo: { file: "assets/photos/emerald.webp" },
     aliases: [],
     colors: ["Green"],
     mineralClass: "Beryl (silicate)",
@@ -1644,6 +1646,7 @@ const CRYSTALS = [
   {
     id: "ruby",
     name: "Ruby",
+    photo: { file: "assets/photos/ruby.webp" },
     aliases: [],
     colors: ["Red"],
     mineralClass: "Corundum (aluminum oxide)",
@@ -1681,6 +1684,7 @@ const CRYSTALS = [
   {
     id: "sapphire",
     name: "Sapphire",
+    photo: { file: "assets/photos/sapphire.webp" },
     aliases: [],
     colors: ["Blue"],
     mineralClass: "Corundum (aluminum oxide)",
@@ -1718,6 +1722,7 @@ const CRYSTALS = [
   {
     id: "opal",
     name: "Opal",
+    photo: { file: "assets/photos/opal.webp" },
     aliases: [],
     colors: ["White", "Multicolor"],
     mineralClass: "Hydrated silica (mineraloid)",
