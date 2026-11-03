@@ -761,9 +761,43 @@ dl.glossary-list dd { margin: 0.2rem 0 0; color: var(--text-dim); }
 .zodiac-crystal-card .swatch-row { justify-content: center; margin-bottom: 0.5rem; }
 .zodiac-crystal-card h4 { margin: 0; font-size: 0.85rem; font-weight: 600; }
 
+/* ---------- Chakra hub & detail ---------- */
+
+.chakra-card {
+  display: block;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--card-accent, var(--purple));
+  border-radius: var(--radius);
+  padding: 1.3rem;
+  text-align: center;
+  color: var(--text);
+  transition: transform 0.12s ease, border-color 0.12s ease;
+}
+.chakra-card:hover, .chakra-card:focus-visible {
+  transform: translateY(-2px);
+  text-decoration: none;
+  outline: none;
+}
+.chakra-card .tag-row { justify-content: center; margin-top: 0.8rem; }
+
+.chakra-symbol {
+  display: block;
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  margin: 0 auto 0.7rem;
+  box-shadow: 0 0 22px -4px currentColor;
+}
+.chakra-symbol-large { width: 76px; height: 76px; flex-shrink: 0; margin: 0; }
+
+.chakra-states { margin: 1.3rem 0 1.8rem; }
+.chakra-state-balanced dt { color: var(--green-bright); }
+.chakra-state-blocked dt { color: var(--rose); }
+
 @media (max-width: 600px) {
   .modal-grid { grid-template-columns: 1fr; }
   h1 { font-size: 1.9rem; }
   .zodiac-detail-hero { gap: 0.9rem; }
   .zodiac-symbol-large { font-size: 3rem; }
+  .chakra-symbol-large { width: 56px; height: 56px; }
 }
