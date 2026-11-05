@@ -96,7 +96,10 @@ function byId2(id) { return document.getElementById(id); }
 function highlightActiveNav2() {
   const path = location.pathname.split("/").pop() || "index.html";
   document.querySelectorAll("nav.main-nav a").forEach(a => {
-    if (a.getAttribute("href") === path) a.classList.add("active");
+    if (a.getAttribute("href") === path) {
+      a.classList.add("active");
+      a.scrollIntoView({ inline: "center", block: "nearest" });
+    }
   });
 }
 

@@ -136,9 +136,27 @@ function crystalCardHTML(crystal) {
     </button>`;
 }
 
+function updateFiltersToggleCount() {
+  const label = byId("filters-toggle-label");
+  if (!label) return;
+  const count = state.colors.size + state.zodiac.size + state.chakra.size + state.element.size + state.birthMonth.size;
+  const expanded = byId("filters").classList.contains("expanded");
+  label.textContent = expanded ? "Hide filters" : "Show filters";
+  const existingBadge = byId("filters-toggle-count");
+  if (existingBadge) existingBadge.remove();
+  if (count > 0) {
+    const badge = document.createElement("span");
+    badge.className = "filters-toggle-count";
+    badge.id = "filters-toggle-count";
+    badge.textContent = String(count);
+    byId("filters-toggle").appendChild(badge);
+  }
+}
+
 function renderGrid() {
   const results = CRYSTALS.filter(matchesFilters).sort((a,b) => a.name.localeCompare(b.name));
   byId("results-count").textContent = `${results.length} crystal${results.length === 1 ? "" : "s"}`;
+  updateFiltersToggleCount();
   const grid = byId("crystal-grid");
   if (results.length === 0) {
     grid.innerHTML = `<div class="empty-state">No crystals match those filters yet. Try clearing a few.</div>`;
@@ -279,7 +297,10 @@ function highlightActiveNav() {
   const path = location.pathname.split("/").pop() || "index.html";
   document.querySelectorAll("nav.main-nav a").forEach(a => {
     const href = a.getAttribute("href");
-    if (href === path || (path === "" && href === "index.html")) a.classList.add("active");
+    if (href === path || (path === "" && href === "index.html")) {
+      a.classList.add("active");
+      a.scrollIntoView({ inline: "center", block: "nearest" });
+    }
   });
 }
 
@@ -296,6 +317,13 @@ document.addEventListener("DOMContentLoaded", () => {
       renderGrid();
     });
     byId("clear-filters-btn").addEventListener("click", clearFilters);
+
+    byId("filters-toggle").addEventListener("click", () => {
+      const filters = byId("filters");
+      const expanded = filters.classList.toggle("expanded");
+      byId("filters-toggle").setAttribute("aria-expanded", String(expanded));
+      updateFiltersToggleCount();
+    });
 
     const initialId = location.hash.replace("#", "");
     if (initialId && findCrystal(initialId)) openModal(initialId);

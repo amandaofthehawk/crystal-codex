@@ -201,8 +201,58 @@ footer.site-footer .disclaimer {
   grid-template-columns: 260px 1fr;
   gap: 2rem;
 }
+.filters-toggle { display: none; }
 @media (max-width: 820px) {
   .browse-layout { grid-template-columns: 1fr; }
+
+  .header-inner { flex-wrap: nowrap; }
+  .brand { flex-shrink: 0; }
+  nav.main-nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    min-width: 0;
+    gap: 1.1rem;
+  }
+  nav.main-nav::-webkit-scrollbar { display: none; }
+  nav.main-nav a { flex-shrink: 0; }
+
+  .filters { position: static; }
+  .filters-toggle {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.9rem 1.1rem;
+    color: var(--text);
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  .filters-body { display: none; }
+  .filters.expanded .filters-body { display: block; margin-top: 1rem; }
+  .filters.expanded .filters-toggle { margin-bottom: 0; }
+  .filters-toggle-icon { flex-shrink: 0; transition: transform 0.15s ease; }
+  .filters.expanded .filters-toggle-icon { transform: rotate(180deg); }
+  .filters-toggle-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.3em;
+    padding: 0 0.4em;
+    margin-left: 0.5em;
+    border-radius: 999px;
+    background: var(--purple);
+    color: #fff;
+    font-size: 0.78rem;
+    font-weight: 600;
+  }
 }
 
 .filters {
@@ -802,4 +852,6 @@ dl.glossary-list dd { margin: 0.2rem 0 0; color: var(--text-dim); }
   .zodiac-detail-hero { gap: 0.9rem; }
   .zodiac-symbol-large { font-size: 3rem; }
   .chakra-symbol-large { width: 56px; height: 56px; }
+  .modal { padding: 1.25rem; }
+  .modal-backdrop { padding: 0 0.6rem; }
 }
